@@ -1,5 +1,5 @@
 # WilkesUniversity
-Copy of Coursework\n
+Copy of Coursework
 
 	CS125 - Computer Science I
 	CS126 - Computer Science II	
