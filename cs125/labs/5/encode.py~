@@ -1,0 +1,14 @@
+# File: encode.py
+# Date: Septemeber 26, 2017
+# Author: Adam Abad
+# Purpose: To code and encode messages using the Caesar Cipher
+
+def main():
+    print()
+    print("This program will encode a message using")
+    print("a Caesar cipher.")
+    print("You will enter a key (number between 1 and 25).")
+    print("Written by Adam Abad")
+    print()
+main()
+    

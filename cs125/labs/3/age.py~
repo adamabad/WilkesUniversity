@@ -1,0 +1,13 @@
+# File: age.py
+# Date: September 12, 2017
+# Author: Adam Abad
+# Purpose: To calculates the age of a user based on a users' input
+
+def main():
+
+    print()
+    print("Program to calculate your age.")
+    print("Written by Adam Abad.")
+    print()
+
+main()

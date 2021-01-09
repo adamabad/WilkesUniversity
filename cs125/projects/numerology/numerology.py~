@@ -1,0 +1,23 @@
+# File: numerology.py
+# Date: September 20, 2017
+# Author: Adam Abad
+# Purpose: To find the numeric value of a name by adding each
+#          character's individual value
+
+def main():
+
+    print()
+    print("Program to calculate the numeric value of a name.")
+    print("You will be asked to enter a name.")
+    print("Written by Adam Abad.")
+    print()
+
+    name = input("Enter a name: ")
+    print() #Enter for turnin
+    print()
+
+    caseLower = name.lower()
+    for palce in caseLower:
+        char = caseLower[place]
+        print(char)
+main()

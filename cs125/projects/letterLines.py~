@@ -1,0 +1,27 @@
+# File: letterLines.py
+# Date: November 16, 2017
+# Author: Adam Abad
+# Purpose: To read and display contents of a file and copy it
+
+def intro():
+
+    print()
+    print("Program to count letters in each line")
+    print("in a file.")
+    print("You will enter the name of a file.")
+    print("The program will create an output file.")
+    print("Written by Adam Abad.")
+    print()
+
+def getFile():
+
+    infileName = input("Enter the name of input file: ")
+    infile = open(infileName,"r")
+    print() #forturnin
+    outfileNameSplit = infileName.split(".")
+    outfileName = oufileNamesplit[0] + ".out"
+    print("The name of output file is", outfileName)
+    
+def main():
+    
+main()

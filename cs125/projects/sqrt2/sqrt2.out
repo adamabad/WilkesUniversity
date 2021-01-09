@@ -1,0 +1,62 @@
+Username:  abada
+Date:      Thu Nov 9 10:42:41 EST 2017
+ 
+*** Running sqrt2.py with .9, 3 ***
+
+Program to approximate the square root of 1 + x.
+(|x| must be less than 1)
+You will be asked to enter the value of x and
+the number of terms.
+Written by Adam Abad
+
+Enter the value of x (|x| < 1): 
+Enter the number of terms to use: 
+
+For 3 terms and x is 0.9:
+
+Function    Approx. Value    Actual Value    Difference
+sqrt(1+x)   1.348750000000   1.378404875209  -0.029654875209
+
+*** Running sqrt2.py with .75, 7 ***
+
+Program to approximate the square root of 1 + x.
+(|x| must be less than 1)
+You will be asked to enter the value of x and
+the number of terms.
+Written by Adam Abad
+
+Enter the value of x (|x| < 1): 
+Enter the number of terms to use: 
+
+For 7 terms and x is 0.75:
+
+Function    Approx. Value    Actual Value    Difference
+sqrt(1+x)   1.321533918381   1.322875655532  -0.001341737152
+
+*** Running sqrt2.py with -1.5, 1 ***
+
+Program to approximate the square root of 1 + x.
+(|x| must be less than 1)
+You will be asked to enter the value of x and
+the number of terms.
+Written by Adam Abad
+
+Enter the value of x (|x| < 1): 
+You entered -1.5. which is not within the range.
+
+*** Running sqrt2.py with -.5, 10 ***
+
+Program to approximate the square root of 1 + x.
+(|x| must be less than 1)
+You will be asked to enter the value of x and
+the number of terms.
+Written by Adam Abad
+
+Enter the value of x (|x| < 1): 
+Enter the number of terms to use: 
+
+For 10 terms and x is -0.5:
+
+Function    Approx. Value    Actual Value    Difference
+sqrt(1+x)   0.707122832537   0.707106781187   0.000016051350
+

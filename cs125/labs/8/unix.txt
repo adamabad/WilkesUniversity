@@ -1,0 +1,19 @@
+Lab 8 by Adam Abad
+
+4. /home/mathcs/users/fall17/abada/cs125/labs/8
+
+6. users
+
+8. zeta
+
+10. 146.94.10.160
+
+14. 146.94.10.44
+
+15. wadzink, gatronc
+
+20. 1073741824
+
+23. GNU/Linux, x86_64
+
+

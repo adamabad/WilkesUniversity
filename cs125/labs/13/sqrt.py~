@@ -1,0 +1,32 @@
+# File: sqrt.py
+# Date: December 5, 2017
+# Author: Adam Abad
+# Purpose: To use Newton's Method to approximate square roots
+
+def intro():
+    
+    print("This program will calculate the square root")
+    print("of a number using Newton's Method.")
+    print("You will enter the number and the size of the")
+    print("delta between Newton's Method square root")
+    print("and the real square root.")
+    print("Written by Adam Abad.")
+
+def getInputs():
+
+    number = int(input("Enter the number to find its square root: "))
+    print() #forturnin
+    delta = float(input("Enter the delta: "))
+    print() #forturnin
+    print()
+    return number, delta
+
+def main():
+
+    intro()
+    number, delta = getInputs()
+    tries = 0
+    print("For the square root of", number, "after", tries, "tries")
+    print("with a delta of", str(delta) + ":")
+    
+    

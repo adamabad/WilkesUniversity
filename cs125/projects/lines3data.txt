@@ -1,0 +1,56 @@
+CS 125	Project 11	Fall 2013
+
+Suppose that a certain speedboat dealership sells ten
+different models of speedboats and employs eight
+salespersons. A record of sales for each month can be
+represented by a two dimensional array in which each row
+contains the number of sales of each model by a given
+salesperson, and each column contains the number of sales of
+each model.  The input file will always contain 10 rows and
+8 columns.  For example, suppose that the sales table for a
+certain month is as follows:
+
+0 0 2 0 5 6 3 0
+5 1 9 0 0 2 3 2
+0 0 0 1 0 0 0 0
+1 1 1 0 2 2 2 1
+5 3 2 0 0 2 5 5
+2 2 1 0 1 1 0 0
+3 2 5 0 1 2 0 4
+3 0 7 1 3 5 2 4
+0 2 6 1 0 5 2 1
+4 0 2 0 3 2 1 0
+
+Your program should produce the following report:
+
+Program to output a monthly report of speedboat sales.
+Written by John Koch.
+
+Enter the file name:
+
+For the file Oct2013.data:
+
+                    Salesperson  
+  Model  :   1   2   3   4   5   6   7   8  :  Avg Totals
+---------------------------------------------------------
+    1    :   0   0   2   0   5   6   3   0  :  x.x   xx
+    2    :   5   1   9   0   0   2   3   2  :  x.x   xx
+    3    :   0   0   0   1   0   0   0   0  :  x.x   xx
+    4    :   1   1   1   0   2   2   2   1  :  x.x   xx
+    5    :   5   3   2   0   0   2   5   5  :  x.x   xx
+    6    :   2   2   1   0   1   1   0   0  :  x.x   xx
+    7    :   3   2   5   0   1   2   0   4  :  x.x   xx
+    8    :   3   0   7   1   3   5   2   4  :  x.x   xx
+    9    :   0   2   6   1   0   5   2   1  :  x.x   xx
+   10    :   4   0   2   0   3   2   1   0  :  x.x   xx
+---------------------------------------------------------
+Average  : x.x x.x x.x x.x x.x x.x x.x x.x
+Maximum  :   x   x   x   x   x   x   x   x
+ Totals  :  xx  xx  xx  xx  xx  xx  xx  xx  :       xxx
+
+Use lists (arrays) to solve this problem. The program should
+be stored in speedboats.py.  You may run turnin for
+speedboats as many times as you want (only the last one is
+kept). This program is due at noon on Thursday, November 21,
+2013. This program is worth 90 points.
+

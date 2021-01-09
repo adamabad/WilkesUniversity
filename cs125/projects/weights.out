@@ -1,0 +1,96 @@
+Username:  abada
+Date:      Thu Oct 26 09:24:41 EDT 2017
+ 
+*** Running weights.py ***
+
+Program to calculate the average of a
+group of pumpkin weights.
+You will be asked to enter the number of
+pumpkins, followed by each pumpkin weight.
+Written by Adam Abad.
+
+Enter the number of pumpkins: 
+
+Enter the weight for pumpkin 1: 
+1500.000 is heavy
+Enter the weight for pumpkin 2: 
+500.000 is heavy
+Enter the weight for pumpkin 3: 
+300.000 is heavy
+Enter the weight for pumpkin 4: 
+100.000 is heavy
+Enter the weight for pumpkin 5: 
+50.000 is normal
+Enter the weight for pumpkin 6: 
+49.000 is light
+The average weight of the 6 pumpkins is 416.500
+
+
+Program to calculate the average of a
+group of pumpkin weights.
+You will be asked to enter the number of
+pumpkins, followed by each pumpkin weight.
+Written by Adam Abad.
+
+Enter the number of pumpkins: 
+
+Enter the weight for pumpkin 1: 
+95.000 is heavy
+Enter the weight for pumpkin 2: 
+87.000 is heavy
+Enter the weight for pumpkin 3: 
+42.000 is light
+Enter the weight for pumpkin 4: 
+67.895 is normal
+Enter the weight for pumpkin 5: 
+1818.500 is heavy
+Enter the weight for pumpkin 6: 
+1704.000 is heavy
+Enter the weight for pumpkin 7: 
+1807.500 is heavy
+Enter the weight for pumpkin 8: 
+1693.000 is heavy
+Enter the weight for pumpkin 9: 
+512.126 is heavy
+Enter the weight for pumpkin 10: 
+342.846 is heavy
+The average weight of the 10 pumpkins is 816.987
+
+
+Program to calculate the average of a
+group of pumpkin weights.
+You will be asked to enter the number of
+pumpkins, followed by each pumpkin weight.
+Written by Adam Abad.
+
+Enter the number of pumpkins: 
+
+Enter the weight for pumpkin 1: 
+80.000 is heavy
+Enter the weight for pumpkin 2: 
+50.000 is normal
+Enter the weight for pumpkin 3: 
+20.000 is light
+The average weight of the 3 pumpkins is 50.000
+
+
+Program to calculate the average of a
+group of pumpkin weights.
+You will be asked to enter the number of
+pumpkins, followed by each pumpkin weight.
+Written by Adam Abad.
+
+Enter the number of pumpkins: 
+
+Enter the weight for pumpkin 1: 
+1800.000 is heavy
+Enter the weight for pumpkin 2: 
+1600.000 is heavy
+Enter the weight for pumpkin 3: 
+1400.000 is heavy
+Enter the weight for pumpkin 4: 
+499.000 is heavy
+Enter the weight for pumpkin 5: 
+49.999 is light
+The average weight of the 5 pumpkins is 1069.800
+

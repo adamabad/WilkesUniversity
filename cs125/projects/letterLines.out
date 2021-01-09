@@ -1,0 +1,165 @@
+Username:  abada
+Date:      Thu Nov 16 09:42:09 EST 2017
+ 
+--- Running first file ---
+ 
+
+Program to count letters in each line
+in a file.
+You will enter the name of a file.
+The program will create an output file.
+Written by Adam Abad.
+
+Enter the name of input file: 
+The name of output file is lines1data.out
+
+Number of lines:            5
+Number of 0's:              0
+Number of 1's:              0
+Number of 2's:              0
+Number of 3's:              0
+Number of 4's:              0
+Number of 5's:              0
+Number of 6's:              0
+Number of 7's:              0
+Number of 8's:              0
+Number of 9's:              0
+
+--- output file 1 is ---
+ 
+28:    'Twas brillig, and the slithy toves
+25:       Did gyre and gimble in the wabe;
+24:    All mimsy were the borogoves,
+23:       And the mome raths outgrabe.
+12:                            - Lewis Carroll
+--- Running letterLines 2 ---
+ 
+
+Program to count letters in each line
+in a file.
+You will enter the name of a file.
+The program will create an output file.
+Written by Adam Abad.
+
+Enter the name of input file: 
+The name of output file is lines2data.out
+
+Number of lines:           22
+Number of 0's:              0
+Number of 1's:              0
+Number of 2's:              0
+Number of 3's:              0
+Number of 4's:              0
+Number of 5's:              0
+Number of 6's:              0
+Number of 7's:              0
+Number of 8's:              0
+Number of 9's:              0
+
+--- output file 2 is ---
+ 
+65: Four score and seven years ago, our fathers brought forth upon this continent, a
+65: new nation, conceived in liberty, and dedicated to the proposition that all men
+15: are created equal.
+0: 
+60: Now we are engaged in a great civil war, testing whether that nation, or any
+60: nation so conceived and so dedicated, can long endure. We are met on a great
+62: battlefield of that war. We have come to dedicate a portion of that field, as a
+65: final resting place for those who here gave their lives that that nation might
+52: live. It is altogether fitting and proper that we should do this.
+0: 
+59: But, in a larger sense, we cannot dedicate -- we cannot consecrate -- we cannot
+60: hallow -- this ground. The brave men, living and dead, who struggled here, have
+59: consecrated it, far above our poor power to add or detract. The world will
+61: little note, nor long remember what we say here, but it can never forget what
+57: they did here. It is for us the living, rather, to be dedicated here to the
+64: unfinished work which they who fought here have thus far so nobly advanced. It
+61: is rather for us to be here dedicated to the great task remaining before us --
+66: that from these honored dead we take increased devotion to that cause for which
+63: they gave the last full measure of devotion -- that we here highly resolve that
+58: these dead shall not have died in vain -- that this nation, under God, shall
+61: have a new birth of freedom -- and that government of the people, by the people,
+38: for the people, shall not perish from the earth. 
+--- Running letterLines 3 ---
+ 
+
+Program to count letters in each line
+in a file.
+You will enter the name of a file.
+The program will create an output file.
+Written by Adam Abad.
+
+Enter the name of input file: 
+The name of output file is lines3data.out
+
+Number of lines:           56
+Number of 0's:             60
+Number of 1's:             39
+Number of 2's:             41
+Number of 3's:             19
+Number of 4's:              8
+Number of 5's:             19
+Number of 6's:              6
+Number of 7's:              4
+Number of 8's:              3
+Number of 9's:              4
+
+--- output file 3 is ---
+ 
+13: CS 125	Project 11	Fall 2013
+0: 
+46: Suppose that a certain speedboat dealership sells ten
+42: different models of speedboats and employs eight
+43: salespersons. A record of sales for each month can be
+47: represented by a two dimensional array in which each row
+43: contains the number of sales of each model by a given
+50: salesperson, and each column contains the number of sales of
+45: each model.  The input file will always contain 10 rows and
+45: 8 columns.  For example, suppose that the sales table for a
+23: certain month is as follows:
+0: 
+0: 0 0 2 0 5 6 3 0
+0: 5 1 9 0 0 2 3 2
+0: 0 0 0 1 0 0 0 0
+0: 1 1 1 0 2 2 2 1
+0: 5 3 2 0 0 2 5 5
+0: 2 2 1 0 1 1 0 0
+0: 3 2 5 0 1 2 0 4
+0: 3 0 7 1 3 5 2 4
+0: 0 2 6 1 0 5 2 1
+0: 4 0 2 0 3 2 1 0
+0: 
+42: Your program should produce the following report:
+0: 
+45: Program to output a monthly report of speedboat sales.
+17: Written by John Koch.
+0: 
+16: Enter the file name:
+0: 
+17: For the file Oct2013.data:
+0: 
+11:                     Salesperson  
+14:   Model  :   1   2   3   4   5   6   7   8  :  Avg Totals
+0: ---------------------------------------------------------
+4:     1    :   0   0   2   0   5   6   3   0  :  x.x   xx
+4:     2    :   5   1   9   0   0   2   3   2  :  x.x   xx
+4:     3    :   0   0   0   1   0   0   0   0  :  x.x   xx
+4:     4    :   1   1   1   0   2   2   2   1  :  x.x   xx
+4:     5    :   5   3   2   0   0   2   5   5  :  x.x   xx
+4:     6    :   2   2   1   0   1   1   0   0  :  x.x   xx
+4:     7    :   3   2   5   0   1   2   0   4  :  x.x   xx
+4:     8    :   3   0   7   1   3   5   2   4  :  x.x   xx
+4:     9    :   0   2   6   1   0   5   2   1  :  x.x   xx
+4:    10    :   4   0   2   0   3   2   1   0  :  x.x   xx
+0: ---------------------------------------------------------
+23: Average  : x.x x.x x.x x.x x.x x.x x.x x.x
+15: Maximum  :   x   x   x   x   x   x   x   x
+25:  Totals  :  xx  xx  xx  xx  xx  xx  xx  xx  :       xxx
+0: 
+48: Use lists (arrays) to solve this problem. The program should
+40: be stored in speedboats.py.  You may run turnin for
+46: speedboats as many times as you want (only the last one is
+44: kept). This program is due at noon on Thursday, November 21,
+24: 2013. This program is worth 90 points.
+0: 
+ 

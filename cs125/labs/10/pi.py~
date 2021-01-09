@@ -1,0 +1,23 @@
+# File: pi.py
+# Date: November 7, 2017
+# Author: Adam Abad
+# Purpose: To calculate pi using infinite series
+
+import math
+
+def intro():
+    print()
+    print("Program to calculate pi by 2 methods")
+    print("Written by Adam Abad")
+    print()
+    
+def getTerms():
+    terms = int(input("How many terms would you like? "))
+    print()
+    return terms
+    
+def main():
+    intro()
+    terms = getTerms()
+    
+main()

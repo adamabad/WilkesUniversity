@@ -1,0 +1,55 @@
+Username:  abada
+Date:      Tue Sep 12 09:59:35 EDT 2017
+ 
+*** Running age.py ***
+
+Program to calculate your age.
+Written by Adam Abad.
+
+Enter the month of your birth (1-12): 
+Enter the day of the month of your birth (1-31): 
+Enter the year of your birth: 
+
+Today's date is 9 / 12 / 2017
+Your birthday is on 10 / 31 / 1948
+Your age is 68 years old.
+
+*** Running age.py again ***
+
+Program to calculate your age.
+Written by Adam Abad.
+
+Enter the month of your birth (1-12): 
+Enter the day of the month of your birth (1-31): 
+Enter the year of your birth: 
+
+Today's date is 9 / 12 / 2017
+Your birthday is on 7 / 17 / 1991
+Your age is 26 years old.
+
+*** Running age.py again ***
+
+Program to calculate your age.
+Written by Adam Abad.
+
+Enter the month of your birth (1-12): 
+Enter the day of the month of your birth (1-31): 
+Enter the year of your birth: 
+
+Today's date is 9 / 12 / 2017
+Your birthday is on 1 / 27 / 1992
+Your age is 25 years old.
+
+*** Running age.py again ***
+
+Program to calculate your age.
+Written by Adam Abad.
+
+Enter the month of your birth (1-12): 
+Enter the day of the month of your birth (1-31): 
+Enter the year of your birth: 
+
+Today's date is 9 / 12 / 2017
+Your birthday is on 9 / 27 / 1992
+Your age is 24 years old.
+

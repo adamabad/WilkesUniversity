@@ -1,0 +1,36 @@
+#File: histo.py
+#Date: December 7, 2017
+#Author: Adam Abad
+#Purpose: To construct a histogram for data in a file
+
+def intro():
+
+    print()
+    print("Program to print a histogram of scores.")
+    print("It also produces the high, low, and average score")
+    print("along with the standard deviation.")
+    print("Written by Adam Abad.")
+    print()
+
+def getFile():
+
+    infileName = input("Enter the name of the input file: ")
+    print() #forturnin
+    print()
+    infile = open(infileName, "r")
+    return infile
+
+def makeList(file):
+    
+    mainList = []
+    for line in file:
+    mainList = mainList + line.split()
+    
+def main():
+    
+    intro()
+    file = getFile()
+    mainList = makeList(file)
+    print(mainList)
+
+main()

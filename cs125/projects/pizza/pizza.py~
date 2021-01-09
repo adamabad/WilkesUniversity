@@ -1,0 +1,24 @@
+# File: pizza.py
+# Date: September 27, 2017
+# Author: Adam Abad
+# Purpose: To calculate the size and price of a pizza
+#          givin a diameter input
+
+def main():
+
+    print()
+    print("Program to calculate the area and cost")
+    print("per square inch of pizza.")
+    print("You will be asked to enter the diameter")
+    print("of the pizza in inches and the cost in dollars.")
+    print("Written by Adam Abad")
+    print()
+
+    diam = int(input("Enter the diameter (in inches): "))
+    print() #forturnin
+    print()
+    cost = float(input("Enter the cost (in dollars): "))
+    print() #forturnin
+    print()
+
+    

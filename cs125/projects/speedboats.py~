@@ -1,0 +1,39 @@
+# File: speedboats.py
+# Date: November 30, 2017
+# Author: Adam Abad
+# Purpose: To display a table for a given set of data
+
+def intro():
+
+    print()
+    print("Program to output a monthly report of speedboat sales.")
+    print("Written by Adam Abad.")
+    print()
+
+def getFile():
+
+    infileName = input("Enter the file name: ")
+    print() #forturnin
+    print()
+    print("For the file", infileName + ":")
+    infile = open(infileName, "r")
+    return infile
+
+def getData(infile):
+
+    mainList = []
+    for line in infile:
+        list = line.split()
+        row = []
+        for num in list:
+            row.append(int(num))
+        mainList.append(row)
+    return mainList
+
+def main():
+    intro()
+    infile = getFile()
+    mainList = getData(infile)
+    infile.close()
+    print(mainList)
+main()

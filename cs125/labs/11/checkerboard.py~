@@ -1,0 +1,23 @@
+# File: checkerboard.py
+# Date: November 14, 2017
+# Author: Adam Abad
+# Purpose: To make a checkerboard based on a user's input
+
+def intro():
+    print("This program will display a checkerboard.")
+    print("You will enter the number of rows, columns,")
+    print("block size and the checkerboard character.")
+    print("Written by Adam Abad.")
+    print()
+def getInputs():
+    rows = int(input("How many rows? "))
+    print() #forturnin
+    columns = int(input("How many columns? "))
+    print() #forturnin
+    blockSize = int(input("What is the block size? "))
+    print() #forturnin
+    grid = input("What is the checkerboard character? ")
+def main():
+    intro()
+    rows,columns,blockSize,grid = getInputs()
+main()

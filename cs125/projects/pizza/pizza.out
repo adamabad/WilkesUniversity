@@ -1,0 +1,57 @@
+Username:  abada
+Date:      Wed Sep 27 09:23:29 EDT 2017
+ 
+--- Running pizza ---
+ 
+
+Program to calculate the area and cost
+per square inch of pizza.
+You will be asked to enter the diameter
+of the pizza in inches and the cost in dollars.
+Written by Adam Abad.
+
+Enter the diameter (in inches): 
+
+Enter the cost (in dollars): 
+
+For a diameter of 16 inches
+and a cost of $17.00:
+Area in square inches: 201.062
+Cost per square inch:  $0.08
+
+--- Running pizza #2 ---
+ 
+
+Program to calculate the area and cost
+per square inch of pizza.
+You will be asked to enter the diameter
+of the pizza in inches and the cost in dollars.
+Written by Adam Abad.
+
+Enter the diameter (in inches): 
+
+Enter the cost (in dollars): 
+
+For a diameter of 25 inches
+and a cost of $50.00:
+Area in square inches: 490.874
+Cost per square inch:  $0.10
+
+--- Running pizza #3 ---
+ 
+
+Program to calculate the area and cost
+per square inch of pizza.
+You will be asked to enter the diameter
+of the pizza in inches and the cost in dollars.
+Written by Adam Abad.
+
+Enter the diameter (in inches): 
+
+Enter the cost (in dollars): 
+
+For a diameter of 8.5 inches
+and a cost of $6.57:
+Area in square inches: 56.745
+Cost per square inch:  $0.12
+
