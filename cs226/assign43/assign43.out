@@ -1,0 +1,166 @@
+Username:  abada
+Date:      Wed Mar 13 18:08:14 EDT 2019
+ 
+*** making assign43***
+make: 'assign43' is up to date.
+--- Running ---
+ 
+
+Name: Adam Abad
+Josephus Problem
+Uses a cicularly singly linked list to perform the Josephus Problem.
+
+What size would you like to make the list (n)?
+Please enter an Integer: 
+
+The list will be size 10
+The list is: 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+What step would you like to use (m)?
+Please enter an Integer: 
+
+The size of the step chosen will be 1
+Deleting 2
+Deleting 4
+Deleting 6
+Deleting 8
+Deleting 10
+Deleting 3
+Deleting 7
+Deleting 1
+Deleting 9
+With n = 10 and m = 1, the winner is 5
+--- Running again ---
+ 
+
+Name: Adam Abad
+Josephus Problem
+Uses a cicularly singly linked list to perform the Josephus Problem.
+
+What size would you like to make the list (n)?
+Please enter an Integer: 
+
+The list will be size 10
+The list is: 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+What step would you like to use (m)?
+Please enter an Integer: 
+
+The size of the step chosen will be 3
+Deleting 4
+Deleting 8
+Deleting 2
+Deleting 7
+Deleting 3
+Deleting 10
+Deleting 9
+Deleting 1
+Deleting 6
+With n = 10 and m = 3, the winner is 5
+--- Running again ---
+ 
+
+Name: Adam Abad
+Josephus Problem
+Uses a cicularly singly linked list to perform the Josephus Problem.
+
+What size would you like to make the list (n)?
+Please enter an Integer: 
+
+The list will be size 5
+The list is: 
+1
+2
+3
+4
+5
+What step would you like to use (m)?
+Please enter an Integer: 
+
+The size of the step chosen will be 0
+Deleting 1
+Deleting 2
+Deleting 3
+Deleting 4
+With n = 5 and m = 0, the winner is 5
+--- Running again ---
+ 
+
+Name: Adam Abad
+Josephus Problem
+Uses a cicularly singly linked list to perform the Josephus Problem.
+
+What size would you like to make the list (n)?
+Please enter an Integer: 
+
+The list will be size 5
+The list is: 
+1
+2
+3
+4
+5
+What step would you like to use (m)?
+Please enter an Integer: 
+
+The size of the step chosen will be 1
+Deleting 2
+Deleting 4
+Deleting 1
+Deleting 5
+With n = 5 and m = 1, the winner is 3
+--- Running again ---
+ 
+
+Name: Adam Abad
+Josephus Problem
+Uses a cicularly singly linked list to perform the Josephus Problem.
+
+What size would you like to make the list (n)?
+Please enter an Integer: 
+
+The list will be size 10
+The list is: 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+What step would you like to use (m)?
+Please enter an Integer: 
+
+The size of the step chosen will be 10
+Deleting 1
+Deleting 3
+Deleting 6
+Deleting 10
+Deleting 8
+Deleting 9
+Deleting 5
+Deleting 2
+Deleting 4
+With n = 10 and m = 10, the winner is 7
+ 

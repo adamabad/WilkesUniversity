@@ -1,0 +1,188 @@
+2a)
+cat * | sort | uniq | egrep J
+Carpe Jugulum
+Jingo
+Johnny and the Bomb
+Johnny and the Dead
+
+2b)
+cat * | sort | uniq | egrep [JW]
+Carpe Jugulum
+Jingo
+Johnny and the Bomb
+Johnny and the Dead
+Night Watch
+The Wee Free Men
+Where's My Cow?
+Witches Abroad
+Wyrd Sisters
+
+2c)
+cat * | sort | uniq | egrep ^[M]
+Maskerade
+Men At Arms
+Monstrous Regiment
+Mort
+Moving Pictures
+
+2d)
+cat * | sort | uniq | egrep ^[BS]
+Small Gods
+Soul Music
+Sourcery
+
+2e)
+cat * | sort | uniq | egrep ^[A-E]
+A Hat Full Of Sky
+Carpe Jugulum
+Equal Rites
+Eric
+
+2f)
+cat * | sort | uniq | egrep [t]$
+Monstrous Regiment
+Mort
+The Fifth Elephant
+The Last Continent
+
+2g)
+cat * | sort | uniq | egrep [lt]$
+Going Postal
+Monstrous Regiment
+Mort
+The Fifth Elephant
+The Last Continent
+
+2h)
+cat * | sort | uniq | egrep [aeiou]$
+Jingo
+Maskerade
+The Last Hero
+Thief of Time
+
+2i)
+cat * | sort | uniq | egrep 'Men | Ladies'
+Lords and Ladies
+Men At Arms
+
+2j)
+cat * | sort | uniq | egrep '([Mm].*[Ee])|([Ss].*[Tt])'
+Going Postal
+Interesting Times
+Maskerade
+Men At Arms
+Monstrous Regiment
+Moving Pictures
+The Last Continent
+The Last Hero
+The Light Fantastic
+The Wee Free Men
+Thief of Time
+Wyrd Sisters
+
+2k)
+cat * | sort | uniq | egrep '[e][e].*[e][e]'
+The Wee Free Men
+
+2l)
+cat * | sort | uniq | egrep '^.{10}$'
+Reaper Man
+Small Gods
+Soul Music
+
+2m)
+cat * | sort | uniq | egrep '^.{,10}$'
+Eric
+Hogfather
+Jingo
+Maskerade
+Mort
+Pyramids
+Reaper Man
+Small Gods
+Soul Music
+Sourcery
+The Truth
+Thud!
+
+2n)
+cat * | sort | uniq | egrep '^.{17,}$'
+A Hat Full Of Sky
+Interesting Times
+Johnny and the Bomb
+Johnny and the Dead
+Monstrous Regiment
+Only You Can Save Mankind
+The Colour of Magic
+The Fifth Elephant
+The Last Continent
+The Light Fantastic
+
+2o)
+cat * | sort | uniq | egrep '([e].*){3,}'
+Interesting Times
+The Wee Free Men
+
+2p)
+cat * | sort | uniq | egrep '^([A-Za-df-z ]*e?){2}$'
+A Hat Full Of Sky
+Carpe Jugulum
+Equal Rites
+Eric
+Going Postal
+Hogfather
+Jingo
+Johnny and the Bomb
+Lords and Ladies
+Maskerade
+Men At Arms
+Mort
+Moving Pictures
+Night Watch
+Only You Can Save Mankind
+Pyramids
+Small Gods
+Soul Music
+Sourcery
+The Colour of Magic
+The Light Fantastic
+The Truth
+Thief of Time
+Witches Abroad
+Wyrd Sisters
+
+
+2r)
+cat * | sort | uniq | egrep '[ ][aeiouAEIOU]'
+A Hat Full Of Sky
+Feet of Clay
+Johnny and the Bomb
+Johnny and the Dead
+Lords and Ladies
+Men At Arms
+The Colour of Magic
+The Fifth Elephant
+Thief of Time
+Witches Abroad
+
+2s)
+cat * | sort | uniq | egrep '^([a-zBCDFGHJKLNPQRSUVWXYZ ]*)*$'
+Carpe Jugulum
+Feet of Clay
+Going Postal
+Hogfather
+Jingo
+Johnny and the Bomb
+Johnny and the Dead
+Lords and Ladies
+Night Watch
+Pyramids
+Small Gods
+Sourcery
+Wyrd Sisters
+
+2t)
+cat * | sort | uniq | egrep '(^T.)(..)*$'
+The Fifth Elephant
+The Last Continent
+The Wee Free Men

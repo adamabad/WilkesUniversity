@@ -1,0 +1,27 @@
+Username:  abada
+Date:      Tue Feb 20 09:55:16 EST 2018
+ 
+Running with data from /home/mathcs/courses/cs246/grades1
+Name                     Exam 1     Exam 2     Exam 3    Average
+==================== ========== ========== ========== ==========
+Nina Roth                    89         92         87       89.3
+Tabitha Peterson             98         87         95       93.3
+Aileen Geving                88         93         95       92.0
+Becca Hamilton               87         93         95       91.7
+Cory Christensen             91         95         92       92.7
+==================== ========== ========== ========== ==========
+Average                      90         92         92       91.8
+Running with data from /home/mathcs/courses/cs246/grades2
+Name                     Exam 1     Exam 2     Exam 3    Average
+==================== ========== ========== ========== ==========
+Steve Bannon                 22         19         41       27.3
+Lou Barletta                 58         65         45       56.0
+Kellyanne Conway             22         34         17       24.3
+Betty DeVos                  19          6         12       12.3
+Mike Pence                   65         58         45       56.0
+Reince Priebus               23         34         45       34.0
+Jeff Sessions                45         34         57       45.3
+Sean Spicer                  34         45         22       33.7
+Donald Trump                 45         49         37       43.7
+==================== ========== ========== ========== ==========
+Average                      37         38         35       37.0

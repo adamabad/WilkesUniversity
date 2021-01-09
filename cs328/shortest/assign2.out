@@ -1,0 +1,645 @@
+Username:  abada
+Date:      Mon Oct 19 20:15:12 EDT 2020
+ 
+***making assign2 ***
+g++ -c -Wall -g assign2.cpp
+g++ assign2.o shortest.o -g -o assign2
+--- Running ---
+ 
+
+Shortest Path by Adam Abad
+Uses a set of matricies and implements Dijkstra's and Floyd's shortest paths algorithms.
+
+How many vertices are in the graph?
+
+
+Number of vertices entered = 5
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 1
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 2
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 1
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 1
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 4
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 1
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 1
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 5
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 5
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 2
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 3
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 3
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 2
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 4
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 2
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 2
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 1
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 9
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 3
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 4
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 4
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 4
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 3
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 2
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 4
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 5
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 3
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 5
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 1
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 3
+Enter 'Y' to enter a node, 'N' to stop.
+Here is the adjacency matrix: 
+    0    1    1000000    1    5
+    9    0    3    2    1000000
+    1000000    1000000    0    4    1000000
+    1000000    1000000    2    0    3
+    3    1000000    1000000    1000000    0
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 2
+You selected Floyd's shortest path.
+
+D matrix: 
+    0    1    3    1    4
+    8    0    3    2    5
+    10    11    0    4    7
+    6    7    2    0    3
+    3    4    6    4    0
+
+P matrix: 
+    0    0    4    0    4
+    5    0    0    0    4
+    5    5    0    0    4
+    5    5    0    0    0
+    0    1    4    1    0
+
+Paths: 
+Calling path 1 to 1
+
+Calling path 1 to 2
+
+Calling path 1 to 3
+v4 
+Calling path 1 to 4
+
+Calling path 1 to 5
+v4 
+Calling path 2 to 1
+v4 v5 
+Calling path 2 to 2
+
+Calling path 2 to 3
+
+Calling path 2 to 4
+
+Calling path 2 to 5
+v4 
+Calling path 3 to 1
+v4 v5 
+Calling path 3 to 2
+v4 v5 v1 
+Calling path 3 to 3
+
+Calling path 3 to 4
+
+Calling path 3 to 5
+v4 
+Calling path 4 to 1
+v5 
+Calling path 4 to 2
+v5 v1 
+Calling path 4 to 3
+
+Calling path 4 to 4
+
+Calling path 4 to 5
+
+Calling path 5 to 1
+
+Calling path 5 to 2
+v1 
+Calling path 5 to 3
+v1 v4 
+Calling path 5 to 4
+v1 
+Calling path 5 to 5
+
+Floyd2 Complete.
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 1
+You selected Dijkstra's shortest path.
+Enter a starting vertex: 
+
+You entered: 1
+Executing Dijkstra's shortest path with vertex V1
+
+F: 
+V4 V5
+V4 V3
+V1 V2
+V1 V4
+
+Touch:
+2 1
+3 4
+4 1
+5 4
+
+Dijkstra Complete.
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 3
+Exiting.
+Destructor Executing.
+--- Running again ---
+ 
+
+Shortest Path by Adam Abad
+Uses a set of matricies and implements Dijkstra's and Floyd's shortest paths algorithms.
+
+How many vertices are in the graph?
+
+
+Number of vertices entered = 3
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 3 as the parent: 
+
+Parent Node: 1
+Enter an integer from 1 to 3 as the child: 
+
+Child Node: 2
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 8
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 3 as the parent: 
+
+Parent Node: 1
+Enter an integer from 1 to 3 as the child: 
+
+Child Node: 3
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 5
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 3 as the parent: 
+
+Parent Node: 2
+Enter an integer from 1 to 3 as the child: 
+
+Child Node: 1
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 3
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 3 as the parent: 
+
+Parent Node: 3
+Enter an integer from 1 to 3 as the child: 
+
+Child Node: 2
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 2
+Enter 'Y' to enter a node, 'N' to stop.
+Here is the adjacency matrix: 
+    0    8    5
+    3    0    1000000
+    1000000    2    0
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 2
+You selected Floyd's shortest path.
+
+D matrix: 
+    0    7    5
+    3    0    8
+    5    2    0
+
+P matrix: 
+    0    3    0
+    0    0    1
+    2    0    0
+
+Paths: 
+Calling path 1 to 1
+
+Calling path 1 to 2
+v3 
+Calling path 1 to 3
+
+Calling path 2 to 1
+
+Calling path 2 to 2
+
+Calling path 2 to 3
+v1 
+Calling path 3 to 1
+v2 
+Calling path 3 to 2
+
+Calling path 3 to 3
+
+Floyd2 Complete.
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 1
+You selected Dijkstra's shortest path.
+Enter a starting vertex: 
+
+You entered: 1
+Executing Dijkstra's shortest path with vertex V1
+
+F: 
+V3 V2
+V1 V3
+
+Touch:
+2 3
+3 1
+
+Dijkstra Complete.
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 3
+Exiting.
+Destructor Executing.
+--- Running again---
+ 
+
+Shortest Path by Adam Abad
+Uses a set of matricies and implements Dijkstra's and Floyd's shortest paths algorithms.
+
+How many vertices are in the graph?
+
+
+Number of vertices entered = 5
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 1
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 2
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 7
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 1
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 3
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 4
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 1
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 4
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 6
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 1
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 5
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 1
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 3
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 2
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 2
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 3
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 4
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 5
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 4
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 2
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 3
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 5 as the parent: 
+
+Parent Node: 5
+Enter an integer from 1 to 5 as the child: 
+
+Child Node: 4
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 1
+Enter 'Y' to enter a node, 'N' to stop.
+Here is the adjacency matrix: 
+    0    7    4    6    1
+    1000000    0    1000000    1000000    1000000
+    1000000    2    0    5    1000000
+    1000000    3    1000000    0    1000000
+    1000000    1000000    1000000    1    0
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 1
+You selected Dijkstra's shortest path.
+Enter a starting vertex: 
+
+You entered: 1
+Executing Dijkstra's shortest path with vertex V1
+
+F: 
+V4 V2
+V1 V3
+V5 V4
+V1 V5
+
+Touch:
+2 4
+3 1
+4 5
+5 1
+
+Dijkstra Complete.
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 1
+You selected Dijkstra's shortest path.
+Enter a starting vertex: 
+
+You entered: 4
+Executing Dijkstra's shortest path with vertex V4
+
+F: 
+V4 V2
+
+Touch:
+1 4
+2 4
+3 4
+5 4
+
+Dijkstra Complete.
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 1
+You selected Dijkstra's shortest path.
+Enter a starting vertex: 
+
+You entered: 5
+Executing Dijkstra's shortest path with vertex V5
+
+F: 
+V4 V2
+V5 V4
+
+Touch:
+1 5
+2 4
+3 5
+4 5
+
+Dijkstra Complete.
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 1
+You selected Dijkstra's shortest path.
+Enter a starting vertex: 
+
+You entered: 3
+Executing Dijkstra's shortest path with vertex V3
+
+F: 
+V3 V4
+V3 V2
+
+Touch:
+1 3
+2 3
+4 3
+5 3
+
+Dijkstra Complete.
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 3
+Exiting.
+Destructor Executing.
+--- Running again---
+ 
+
+Shortest Path by Adam Abad
+Uses a set of matricies and implements Dijkstra's and Floyd's shortest paths algorithms.
+
+How many vertices are in the graph?
+
+
+Number of vertices entered = 4
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 4 as the parent: 
+
+Parent Node: 1
+Enter an integer from 1 to 4 as the child: 
+
+Child Node: 2
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 8
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 4 as the parent: 
+
+Parent Node: 1
+Enter an integer from 1 to 4 as the child: 
+
+Child Node: 3
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 1
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 4 as the parent: 
+
+Parent Node: 2
+Enter an integer from 1 to 4 as the child: 
+
+Child Node: 3
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 3
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 4 as the parent: 
+
+Parent Node: 3
+Enter an integer from 1 to 4 as the child: 
+
+Child Node: 2
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 2
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 4 as the parent: 
+
+Parent Node: 3
+Enter an integer from 1 to 4 as the child: 
+
+Child Node: 4
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 1
+Enter 'Y' to enter a node, 'N' to stop.
+Enter an integer from 1 to 4 as the parent: 
+
+Parent Node: 4
+Enter an integer from 1 to 4 as the child: 
+
+Child Node: 2
+Enter an integer to represent the weight of the edge: 
+
+Node Weight: 3
+Enter 'Y' to enter a node, 'N' to stop.
+Here is the adjacency matrix: 
+    0    8    1    1000000
+    1000000    0    3    1000000
+    1000000    2    0    1
+    1000000    3    1000000    0
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 1
+You selected Dijkstra's shortest path.
+Enter a starting vertex: 
+
+You entered: 1
+Executing Dijkstra's shortest path with vertex V1
+
+F: 
+V3 V2
+V3 V4
+V1 V3
+
+Touch:
+2 3
+3 1
+4 3
+
+Dijkstra Complete.
+Enter 1 for Dijkstra's shortest path
+Enter 2 for Floyd's shortest path
+Enter 3 to exit
+Enter an option: 
+You entered: 3
+Exiting.
+Destructor Executing.
+ 

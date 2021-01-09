@@ -1,0 +1,30 @@
+Username:  abada
+Date:      Tue Jan 30 14:54:21 EST 2018
+ 
+*** compiling ***
+--- Running 1.0 ---
+
+Program to calculate the height of a rainbow.
+Program checks that the distance is greater
+than zero.
+Written by Adam Abad.
+You will be asked to enter the distance to the rainbow.
+
+Enter distance: 
+
+Given that the distance to the rainbow is 1.0:
+
+The height of the rainbow is:  0.9109940218479747
+
+--- Running -10 ---
+
+Program to calculate the height of a rainbow.
+Program checks that the distance is greater
+than zero.
+Written by Adam Abad.
+You will be asked to enter the distance to the rainbow.
+
+Enter distance: 
+
+-10.0 is less than zero, unable to calculate the distance.
+

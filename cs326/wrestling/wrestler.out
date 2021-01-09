@@ -1,0 +1,640 @@
+Username:  abada
+Date:      Wed Nov 6 18:33:32 EST 2019
+ 
+*** compiling ***
+--- running ---
+ 
+Name: Adam Abad
+The Arm Wrestler Problem
+Implements the arm wrestler problem using semaphores and shared memory.
+
+Patron 17693: waiting
+Patron 17695: waiting
+Patron 17693:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17694: waiting
+Patron 17696: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17695:             Pwrestling
+Patron 17693: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17694:             Pwrestling
+Patron 17697: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17696:             Pwrestling
+Patron 17694: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17693:             Pwrestling
+Patron 17695: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17697:             Pwrestling
+Patron 17696: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17694:             Pwrestling
+Patron 17693: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17695:             Pwrestling
+Patron 17697: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17696:             Pwrestling
+Patron 17694: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17693:             Pwrestling
+Patron 17696: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17697:             Pwrestling
+Patron 17695: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17694:             Pwrestling
+Patron 17693: waiting
+Wrestler    : wrestler win
+Patron 17696:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17694: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17695:             Pwrestling
+Patron 17696: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17693:             Pwrestling
+Patron 17697: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17694:             Pwrestling
+Patron 17695: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17696:             Pwrestling
+Patron 17693: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17694: waiting
+Wrestler    : wrestler win
+Patron 17697:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17695:             Pwrestling
+Patron 17696: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17693:             Pwrestling
+Patron 17697: waiting
+Wrestler    : patron win
+Wrestler    : Tent Closed
+Patron 17694: terminating.
+Patron 17695: terminating.
+Wrestler terminating.
+Patron 17696: terminating.
+Patron 17693: terminating.
+Patron 17697: terminating.
+
+After the wrestling day, the wrestler made 170
+After the wrestling day, the patrons made 75
+
+Semaphore Destroyed Successfully: semWrestler
+Semaphore Destroyed Successfully: semPatron
+Semaphore Destroyed Successfully: csWrestling
+Semaphore Destroyed Successfully: mutex
+Semaphore Destroyed Successfully: syncronization
+Sharedmem Destroyed Successfully: seg_id
+--- Running again ---
+ 
+Name: Adam Abad
+The Arm Wrestler Problem
+Implements the arm wrestler problem using semaphores and shared memory.
+
+Patron 17700: waiting
+Patron 17701: waiting
+Patron 17700:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17702: waiting
+Patron 17703: waiting
+Wrestler    : wrestler win
+Patron 17701:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17700: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17702:             Pwrestling
+Patron 17701: waiting
+Wrestler    : wrestler win
+Patron 17703:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17704: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17700:             Pwrestling
+Patron 17702: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17703: waiting
+Patron 17701:             Pwrestling
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17704:             Pwrestling
+Patron 17700: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17702:             Pwrestling
+Patron 17704: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17701: waiting
+Patron 17703:             Pwrestling
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17700:             Pwrestling
+Patron 17702: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17704:             Pwrestling
+Patron 17700: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17701:             Pwrestling
+Patron 17704: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17702:             Pwrestling
+Patron 17703: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17700:             Pwrestling
+Patron 17702: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17704:             Pwrestling
+Patron 17701: waiting
+Wrestler    : wrestler win
+Patron 17703:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17704: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17702:             Pwrestling
+Patron 17700: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17701:             Pwrestling
+Patron 17702: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17704:             Pwrestling
+Patron 17703: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17700:             Pwrestling
+Patron 17704: waiting
+Wrestler    : wrestler win
+Wrestler    : Tent Closed
+Patron 17702: terminating.
+Patron 17701: terminating.
+Patron 17703: terminating.
+Wrestler terminating.
+Patron 17700: terminating.
+Patron 17704: terminating.
+
+After the wrestling day, the wrestler made 130
+After the wrestling day, the patrons made 175
+
+Semaphore Destroyed Successfully: semWrestler
+Semaphore Destroyed Successfully: semPatron
+Semaphore Destroyed Successfully: csWrestling
+Semaphore Destroyed Successfully: mutex
+Semaphore Destroyed Successfully: syncronization
+Sharedmem Destroyed Successfully: seg_id
+--- Running again ---
+ 
+Name: Adam Abad
+The Arm Wrestler Problem
+Implements the arm wrestler problem using semaphores and shared memory.
+
+Patron 17707: waiting
+Patron 17707:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17708: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17707: waiting
+Patron 17708:             Pwrestling
+Patron 17709: waiting
+Wrestler    : wrestler win
+Patron 17710: waiting
+Wrestler    :             Wwrestling
+Patron 17707:             Pwrestling
+Patron 17708: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17709:             Pwrestling
+Patron 17711: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17710:             Pwrestling
+Patron 17709: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17708:             Pwrestling
+Patron 17707: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17711:             Pwrestling
+Patron 17710: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17709:             Pwrestling
+Patron 17708: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17707:             Pwrestling
+Patron 17711: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17710:             Pwrestling
+Patron 17709: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17708:             Pwrestling
+Patron 17707: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17711:             Pwrestling
+Patron 17710: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17709:             Pwrestling
+Patron 17708: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17707:             Pwrestling
+Patron 17711: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17710:             Pwrestling
+Patron 17709: waiting
+Patron 17708:             Pwrestling
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17707: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17711:             Pwrestling
+Patron 17710: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17709:             Pwrestling
+Patron 17708: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17707:             Pwrestling
+Patron 17711: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17710:             Pwrestling
+Patron 17709: waiting
+Wrestler    : wrestler win
+Wrestler    : Tent Closed
+Patron 17710: terminating.
+Patron 17707: terminating.
+Patron 17708: terminating.
+Patron 17711: terminating.
+Wrestler terminating.
+Patron 17709: terminating.
+
+After the wrestling day, the wrestler made 180
+After the wrestling day, the patrons made 50
+
+Semaphore Destroyed Successfully: semWrestler
+Semaphore Destroyed Successfully: semPatron
+Semaphore Destroyed Successfully: csWrestling
+Semaphore Destroyed Successfully: mutex
+Semaphore Destroyed Successfully: syncronization
+Sharedmem Destroyed Successfully: seg_id
+--- Running again ---
+ 
+Name: Adam Abad
+The Arm Wrestler Problem
+Implements the arm wrestler problem using semaphores and shared memory.
+
+Patron 17714: waiting
+Patron 17714:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17715: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17715:             Pwrestling
+Patron 17714: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17715: waiting
+Patron 17714:             Pwrestling
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17715:             Pwrestling
+Patron 17714: waiting
+Wrestler    : wrestler win
+Patron 17716: waiting
+Patron 17714:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17715: waiting
+Patron 17717: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17716:             Pwrestling
+Patron 17714: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17715:             Pwrestling
+Patron 17718: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17717:             Pwrestling
+Patron 17715: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17714:             Pwrestling
+Patron 17716: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17718:             Pwrestling
+Patron 17717: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17715:             Pwrestling
+Patron 17714: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17716:             Pwrestling
+Patron 17718: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17717:             Pwrestling
+Patron 17716: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17714:             Pwrestling
+Patron 17715: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17718:             Pwrestling
+Patron 17717: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17716:             Pwrestling
+Patron 17718: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17716: waiting
+Patron 17715:             Pwrestling
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17717:             Pwrestling
+Patron 17714: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17718:             Pwrestling
+Patron 17715: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17716:             Pwrestling
+Patron 17717: waiting
+Wrestler    : patron win
+Wrestler    : Tent Closed
+Patron 17716: terminating.
+Patron 17714: terminating.
+Wrestler terminating.
+Patron 17718: terminating.
+Patron 17715: terminating.
+Patron 17717: terminating.
+
+After the wrestling day, the wrestler made 100
+After the wrestling day, the patrons made 250
+
+Semaphore Destroyed Successfully: semWrestler
+Semaphore Destroyed Successfully: semPatron
+Semaphore Destroyed Successfully: csWrestling
+Semaphore Destroyed Successfully: mutex
+Semaphore Destroyed Successfully: syncronization
+Sharedmem Destroyed Successfully: seg_id
+--- Running again ---
+ 
+Name: Adam Abad
+The Arm Wrestler Problem
+Implements the arm wrestler problem using semaphores and shared memory.
+
+Patron 17721: waiting
+Patron 17722: waiting
+Patron 17721:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17723: waiting
+Patron 17724: waiting
+Wrestler    : wrestler win
+Patron 17722:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17725: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17723:             Pwrestling
+Patron 17722: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17724:             Pwrestling
+Patron 17723: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17725:             Pwrestling
+Patron 17724: waiting
+Wrestler    : wrestler win
+Patron 17722:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17721: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17723:             Pwrestling
+Patron 17725: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17724:             Pwrestling
+Patron 17723: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17721:             Pwrestling
+Patron 17722: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17724: waiting
+Patron 17725:             Pwrestling
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17723:             Pwrestling
+Patron 17721: waiting
+Wrestler    : wrestler win
+Patron 17722:             Pwrestling
+Patron 17725: waiting
+Wrestler    :             Wwrestling
+Wrestler    : wrestler win
+Patron 17724:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17722: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17724: waiting
+Patron 17721:             Pwrestling
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17725:             Pwrestling
+Patron 17723: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17722:             Pwrestling
+Patron 17721: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17724:             Pwrestling
+Patron 17722: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17724: waiting
+Patron 17723:             Pwrestling
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17721:             Pwrestling
+Patron 17725: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17722:             Pwrestling
+Patron 17723: waiting
+Wrestler    : patron win
+Wrestler    : Tent Closed
+Patron 17724: terminating.
+Patron 17722: terminating.
+Wrestler terminating.
+Patron 17725: terminating.
+Patron 17723: terminating.
+Patron 17721: terminating.
+
+After the wrestling day, the wrestler made 180
+After the wrestling day, the patrons made 50
+
+Semaphore Destroyed Successfully: semWrestler
+Semaphore Destroyed Successfully: semPatron
+Semaphore Destroyed Successfully: csWrestling
+Semaphore Destroyed Successfully: mutex
+Semaphore Destroyed Successfully: syncronization
+Sharedmem Destroyed Successfully: seg_id
+--- Running again ---
+ 
+Name: Adam Abad
+The Arm Wrestler Problem
+Implements the arm wrestler problem using semaphores and shared memory.
+
+Patron 17729: waiting
+Patron 17729:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17730: waiting
+Wrestler    : wrestler win
+Patron 17731: waiting
+Wrestler    :             Wwrestling
+Patron 17729: waiting
+Patron 17730:             Pwrestling
+Patron 17728: waiting
+Wrestler    : wrestler win
+Patron 17731:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17732: waiting
+Patron 17729:             Pwrestling
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17731: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17728:             Pwrestling
+Patron 17729: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17728: waiting
+Patron 17732:             Pwrestling
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17731:             Pwrestling
+Patron 17730: waiting
+Patron 17729:             Pwrestling
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17731: waiting
+Patron 17728:             Pwrestling
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17729: waiting
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17730:             Pwrestling
+Patron 17732: waiting
+Wrestler    : wrestler win
+Patron 17731:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17728: waiting
+Wrestler    : wrestler win
+Patron 17729:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17731: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17729: waiting
+Patron 17732:             Pwrestling
+Wrestler    : wrestler win
+Wrestler    :             Wwrestling
+Patron 17728:             Pwrestling
+Patron 17730: waiting
+Wrestler    : wrestler win
+Patron 17731:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17732: waiting
+Patron 17729:             Pwrestling
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17731: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17728: waiting
+Patron 17730:             Pwrestling
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17729: waiting
+Patron 17732:             Pwrestling
+Wrestler    : wrestler win
+Patron 17731:             Pwrestling
+Wrestler    :             Wwrestling
+Patron 17730: waiting
+Wrestler    : patron win
+Wrestler    :             Wwrestling
+Patron 17728:             Pwrestling
+Patron 17732: waiting
+Wrestler    : wrestler win
+Wrestler    : Tent Closed
+Patron 17729: terminating.
+Patron 17728: terminating.
+Patron 17731: terminating.
+Wrestler terminating.
+Patron 17730: terminating.
+Patron 17732: terminating.
+
+After the wrestling day, the wrestler made 90
+After the wrestling day, the patrons made 275
+
+Semaphore Destroyed Successfully: semWrestler
+Semaphore Destroyed Successfully: semPatron
+Semaphore Destroyed Successfully: csWrestling
+Semaphore Destroyed Successfully: mutex
+Semaphore Destroyed Successfully: syncronization
+Sharedmem Destroyed Successfully: seg_id

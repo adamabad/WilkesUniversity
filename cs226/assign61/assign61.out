@@ -1,0 +1,79 @@
+Username:  abada
+Date:      Mon Mar 18 18:51:59 EDT 2019
+ 
+*** making assign61 ***
+make: 'assign61' is up to date.
+--- Running ---
+ 
+
+Name: Adam Abad
+Queues
+Queues uses and circular singly linked list to implement a queue.
+
+please enter the name of the file containing your data
+
+The file name entered is /home/mathcs/turnin/bracken/input611.text
+About to insert 10 into the queue 
+About to insert 22 into the queue 
+About to insert 33 into the queue 
+About to insert 44 into the queue 
+About to insert 55 into the queue 
+About to insert 66 into the queue 
+About to insert 77 into the queue 
+About to insert 88 into the queue 
+About to insert 99 into the queue 
+Item 1: 99
+Item 2: 88
+Item 3: 77
+Item 4: 66
+Item 5: 55
+Item 6: 44
+Item 7: 33
+Item 8: 22
+Item 9: 10
+
+The Sum is    : 494
+The Average is: 54.8889
+
+Item 1: 99
+Item 2: 88
+Item 3: 77
+Item 4: 66
+Item 5: 55
+Item 6: 44
+Item 7: 33
+Item 8: 22
+Item 9: 10
+--- Running again ---
+ 
+
+Name: Adam Abad
+Queues
+Queues uses and circular singly linked list to implement a queue.
+
+please enter the name of the file containing your data
+
+The file name entered is /home/mathcs/turnin/bracken/input612.text
+About to insert 555 into the queue 
+Item 1: 555
+
+The Sum is    : 555
+The Average is: 555
+
+Item 1: 555
+--- Running again ---
+ 
+
+Name: Adam Abad
+Queues
+Queues uses and circular singly linked list to implement a queue.
+
+please enter the name of the file containing your data
+
+The file name entered is /home/mathcs/turnin/bracken/input613.text
+
+The Queue is Empty
+The Sum is    : 0
+The Average is: 0
+
+ 

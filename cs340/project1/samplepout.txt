@@ -1,0 +1,66 @@
+Enter the name of file: map.txt
+
+FIle map opened for representationArray.
+File map opened for map declaration.
+Coloring complete.
+A 1
+B 2
+C 1
+D 2
+E 3
+F 4
+
+
+Enter the name of file: state
+
+File state opened for representationArray.
+File state opened for map declaration.
+Coloring complete.
+al 1
+ar 1
+az 1
+ca 2
+co 1
+ct 1
+de 1
+fl 2
+ga 3
+ia 1
+id 1
+il 2
+in 1
+ks 2
+ky 3
+la 2
+ma 4
+md 2
+me 1
+mi 2
+mn 2
+mo 4
+ms 3
+mt 3
+nc 1
+nd 1
+ne 3
+nh 2
+nj 4
+nm 2
+nv 3
+ny 2
+oh 4
+ok 3
+or 4
+pa 3
+ri 2
+sc 2
+sd 4
+tn 2
+tx 4
+ut 4
+va 4
+vt 1
+wa 2
+wi 3
+wv 1
+wy 2

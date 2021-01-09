@@ -1,0 +1,72 @@
+Username:  abada
+Date:      Mon Apr 9 15:30:36 EDT 2018
+ 
+*** Compiling ***
+javac *.java
+--- Running Banking ---
+
+Welcome to the First Bank of Cuba.
+Written By Adam Abad.
+
+Account status is: The Incredible Hulk has balance $50.00
+Account status is: Nemo has balance $10000.00
+
+After 1 month(s), 
+Account status is: The Incredible Hulk has balance $45.29
+Account status is: Nemo has balance $10000.00
+
+After 2 month(s), 
+Account status is: The Incredible Hulk has balance $41.03
+Account status is: Nemo has balance $10000.00
+
+After 3 month(s), 
+Account status is: The Incredible Hulk has balance $37.16
+Account status is: Nemo has balance $10000.00
+
+Depositing $2000 into Hulk's Account.
+Account status is: The Incredible Hulk has balance $2037.16
+
+Withdrawing $3000 from Nemo's Account.
+Account status is: Nemo has balance $5000.00
+
+After 4 month(s), 
+Account status is: The Incredible Hulk has balance $2039.05
+Account status is: Nemo has balance $5000.00
+
+After 5 month(s), 
+Account status is: The Incredible Hulk has balance $2040.94
+Account status is: Nemo has balance $5000.00
+
+After 6 month(s), 
+Account status is: The Incredible Hulk has balance $2042.85
+Account status is: Nemo has balance $5000.00
+
+After 7 month(s), 
+Account status is: The Incredible Hulk has balance $2044.76
+Account status is: Nemo has balance $5000.00
+
+After 8 month(s), 
+Account status is: The Incredible Hulk has balance $2046.69
+Account status is: Nemo has balance $5000.00
+
+After 9 month(s), 
+Account status is: The Incredible Hulk has balance $2048.63
+Account status is: Nemo has balance $5000.00
+
+After 10 month(s), 
+Account status is: The Incredible Hulk has balance $2050.58
+Account status is: Nemo has balance $5000.00
+
+After 11 month(s), 
+Account status is: The Incredible Hulk has balance $2052.54
+Account status is: Nemo has balance $5000.00
+
+After 12 month(s), 
+Account status is: The Incredible Hulk has balance $2054.52
+Account status is: Nemo has balance $5750.00
+
+After 13 month(s), 
+Account status is: The Incredible Hulk has balance $2056.50
+Account status is: Nemo has balance $5750.00
+
+rm -f *.class *~ *#

@@ -1,0 +1,11 @@
+// File: diamonds.c
+// Date: April 3, 2018
+// Author: Adam Abad
+
+#include <stdlib.h>
+#include <math.h>
+#include "graphics.h"
+
+int main() {
+  create_window(600,600,NULL);
+}

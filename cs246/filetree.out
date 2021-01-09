@@ -1,0 +1,65 @@
+Username:  abada
+Date:      Tue Apr 10 13:39:22 EDT 2018
+ 
+**************************
+* Compiling ./filetree.c *
+**************************
+**************************
+* Compilation succeeded! *
+**************************
+******************************************************
+* Running ./filetree /home/mathcs/courses/cs246/tree *
+******************************************************
+
+/home/mathcs/courses/cs246/tree
+|- epsilon
+    |- three
+        |- a
+            |- 1
+    |- four
+    |- two
+    |- one
+|- delta
+|- alpha
+    |- three
+    |- four
+    |- two
+    |- one
+|- gamma
+|- beta
+
+***************************
+* Run is finished.        *
+* Check your output!      *
+***************************
+Press enter to continue. 
+**************************
+* Compiling ./filetree.c *
+**************************
+**************************
+* Compilation succeeded! *
+**************************
+**********************
+* Running ./filetree *
+**********************
+usage: ./filetree must have a command line arguement
+***************************
+* Run is finished.        *
+* Check your output!      *
+***************************
+Press enter to continue. 
+**************************
+* Compiling ./filetree.c *
+**************************
+**************************
+* Compilation succeeded! *
+**************************
+****************************
+* Running ./filetree /root *
+****************************
+./filetree: /root: Permission denied
+***************************
+* Run is finished.        *
+* Check your output!      *
+***************************
+Press enter to continue. 

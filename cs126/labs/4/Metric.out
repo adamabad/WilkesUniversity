@@ -1,0 +1,15 @@
+Username:  abada
+Date:      Tue Feb 6 14:20:00 EST 2018
+ 
+*** Running make ***
+javac *.java
+--- Running 10 ---
+Enter a number to convert: 
+
+10.0 feet = 3.048 meters
+--- Running 10000 ---
+Enter a number to convert: 
+
+10000.0 feet = 3048.0 meters
+*** Running make clean ***
+rm -f *.class *~ *#

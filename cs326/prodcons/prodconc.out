@@ -1,0 +1,79 @@
+Username:  abada
+Date:      Mon Oct 7 14:13:13 EDT 2019
+ 
+*** compiling ***
+--- running ---
+ 
+Name: Adam Abad
+Single Producer Single Consumer Problem
+Implements the prodcon problem using semaphores and shared memory.
+
+I am the parent. pid = 55364
+I am the child. pid = 55365
+
+Parent Finished producing.
+Sum: 500500
+Consumer terminating.
+
+Child finished, cleaning up memory and semaphores.
+Shared resources terminated, exiting program.
+--- Running again ---
+ 
+Name: Adam Abad
+Single Producer Single Consumer Problem
+Implements the prodcon problem using semaphores and shared memory.
+
+I am the parent. pid = 55366
+I am the child. pid = 55367
+
+Parent Finished producing.
+Sum: 500500
+Consumer terminating.
+
+Child finished, cleaning up memory and semaphores.
+Shared resources terminated, exiting program.
+--- Running again ---
+ 
+Name: Adam Abad
+Single Producer Single Consumer Problem
+Implements the prodcon problem using semaphores and shared memory.
+
+I am the parent. pid = 55368
+I am the child. pid = 55369
+
+Parent Finished producing.
+Sum: 500500
+Consumer terminating.
+
+Child finished, cleaning up memory and semaphores.
+Shared resources terminated, exiting program.
+--- Running again ---
+ 
+Name: Adam Abad
+Single Producer Single Consumer Problem
+Implements the prodcon problem using semaphores and shared memory.
+
+I am the parent. pid = 55370
+I am the child. pid = 55371
+
+Parent Finished producing.
+Sum: 500500
+Consumer terminating.
+
+Child finished, cleaning up memory and semaphores.
+Shared resources terminated, exiting program.
+--- Running again ---
+ 
+Name: Adam Abad
+Single Producer Single Consumer Problem
+Implements the prodcon problem using semaphores and shared memory.
+
+I am the parent. pid = 55372
+I am the child. pid = 55373
+
+Parent Finished producing.
+Sum: 500500
+Consumer terminating.
+
+Child finished, cleaning up memory and semaphores.
+Shared resources terminated, exiting program.

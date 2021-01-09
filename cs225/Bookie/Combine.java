@@ -1,0 +1,117 @@
+import java.io.*;
+import java.util.*;
+
+public class Combine {
+    
+    public static class Store {
+	
+	String first;
+	String last;
+	int num;
+	
+	public Store(String first, String last, String num) {
+	    this.first = first;
+	    this.last = last;
+	    this.num = Integer.parseInt(num);
+	}
+	
+	public int compareTo(Store sCompare) {
+	    //Returns -1 if this.last is smaller
+	    if(last.compareTo(sCompare.last) != 0)
+		return last.compareTo(sCompare.last);
+	    else if (first.compareTo(sCompare.first) != 0)
+		return first.compareTo(sCompare.first);
+	    else {
+		if (num > sCompare.num)
+		    return 1;
+		else if (num < sCompare.num)
+		    return -1;
+		else
+		    return 0;
+	    }
+	}
+	
+	public String toString() {
+	    return first + " " + last + " " + num;
+	}
+    }
+
+    public static Store makeStore(FileReader reader, String character) throws IOException {
+
+	String first = character;
+	String last = "";
+	String score = "";
+	int c;
+	int spaceCount = 0;
+
+	while((c = reader.read()) != -1 && c != '\n') {
+	    if(c == 32) {
+		spaceCount++;
+	    }
+	    else if(spaceCount == 1) {
+		last = last + (char)c;
+	    }
+	    else if(spaceCount == 2) {
+		score = score + (char)c;
+	    }
+	    else {
+		first = first + (char)c;
+	    }
+	}
+	return new Store(first, last, score);
+    }
+    
+    public static void main(String[] argv) throws IOException {
+
+	ArrayList<FileReader> list = new ArrayList<FileReader>();
+	ArrayList<Store> storeList = new ArrayList<Store>();
+	int c;
+	String s;
+	FileReader reader;
+	
+	if (argv.length == -1 || argv.length == 0) {
+	    System.err.println("Must contain more than one files to combined");
+	}
+	else {
+	    for(int x = 0; x < argv.length; x++) {
+		try {
+		    reader = new FileReader(argv[x]);
+		    s = "";
+		    if((c = reader.read()) != -1){
+			list.add(reader);
+			s = s + (char)c;
+			storeList.add(makeStore(reader,s));
+		    }
+		}
+		catch (IOException e) {
+		    System.err.println("File: " + argv[x] + " could not be found.");
+		}
+	    }
+	    
+	    while(!storeList.isEmpty()) {
+
+		int subFile = 0;
+		Store smallest = storeList.get(subFile);
+
+		for(int x = 1; x < storeList.size(); x++) {
+		    if(smallest.compareTo(storeList.get(x)) > 0) {
+			subFile = x;
+			smallest = storeList.get(subFile);
+		    }
+		}
+		
+		System.out.println(smallest.toString());
+		storeList.remove(subFile);
+		
+		s = "";
+		if((c = list.get(subFile).read()) != -1) {
+		    s = s + (char)c;
+		    storeList.add(makeStore(list.get(subFile), s));
+		}
+		else {
+		    list.remove(subFile);
+		}		
+	    }
+	}
+    }
+}

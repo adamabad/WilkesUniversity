@@ -1,0 +1,19 @@
+// File: powers.c
+// Date: March 16, 2018
+// Author: Adam Abad
+
+#import <stdio.h>
+
+long power(long m, int n) {
+    return m * n
+}
+
+int main(int argc, char * argv[]) {
+  long m = (int)argv[1];
+  int n = (int)argv[2];
+  printf("%s %d","Powers of \n\n",n);
+  for(int i = 1; i <= n; i++) {
+    m = power(m, i);
+    printf("%d %l", i, m);
+  }
+}

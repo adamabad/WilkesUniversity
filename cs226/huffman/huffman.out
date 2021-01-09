@@ -1,0 +1,480 @@
+Username:  abada
+Date:      Mon Apr 22 22:04:32 EDT 2019
+ 
+*** making assign61 ***
+make: 'huffmancode' is up to date.
+--- Running ---
+ 
+
+Name: Adam Abad
+Huffman Code
+Uses a priority heap and binary tree to construct a Huffman Code.
+
+enter the name of a file containing the characters
+The file /home/mathcs/turnin/bracken/huffman1.test
+char = A count = 7
+char = B count = 3
+char = C count = 2
+char = D count = 0
+char = E count = 0
+char = F count = 1
+char = G count = 0
+char = H count = 0
+char = I count = 0
+char = J count = 0
+char = K count = 0
+char = L count = 0
+char = M count = 0
+char = N count = 0
+char = O count = 0
+char = P count = 0
+char = Q count = 1
+char = R count = 0
+char = S count = 0
+char = T count = 0
+char = U count = 0
+char = V count = 0
+char = W count = 0
+char = X count = 2
+char = Y count = 2
+char = Z count = 1
+Symbol = F frequency = 1
+Symbol = Q frequency = 1
+Symbol = Z frequency = 1
+Symbol = C frequency = 2
+Symbol = X frequency = 2
+Symbol = Y frequency = 2
+Symbol = B frequency = 3
+Symbol = A frequency = 7
+end initial heap display
+
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 2
+just inserted frequency = 3
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 2 and q->frequency = 3
+just inserted frequency = 5
+ for debug p->frequency = 3 and q->frequency = 4
+just inserted frequency = 7
+ for debug p->frequency = 5 and q->frequency = 7
+just inserted frequency = 12
+ for debug p->frequency = 7 and q->frequency = 12
+just inserted frequency = 19
+the constructor has built the huffman tree
+Frequency = 7 the letter is A the binary string is 0
+Frequency = 19
+Frequency = 1 the letter is F the binary string is 1000
+Frequency = 2
+Frequency = 1 the letter is Q the binary string is 1001
+Frequency = 5
+Frequency = 3 the letter is B the binary string is 101
+Frequency = 12
+Frequency = 1 the letter is Z the binary string is 1100
+Frequency = 3
+Frequency = 2 the letter is C the binary string is 1101
+Frequency = 7
+Frequency = 2 the letter is X the binary string is 1110
+Frequency = 4
+Frequency = 2 the letter is Y the binary string is 1111
+Destructor executing
+--- Running again ---
+ 
+
+Name: Adam Abad
+Huffman Code
+Uses a priority heap and binary tree to construct a Huffman Code.
+
+enter the name of a file containing the characters
+The file /home/mathcs/turnin/bracken/huffman2.test
+char = A count = 16
+char = B count = 5
+char = C count = 12
+char = D count = 17
+char = E count = 10
+char = F count = 25
+char = G count = 0
+char = H count = 0
+char = I count = 0
+char = J count = 0
+char = K count = 0
+char = L count = 0
+char = M count = 0
+char = N count = 0
+char = O count = 0
+char = P count = 0
+char = Q count = 0
+char = R count = 0
+char = S count = 0
+char = T count = 0
+char = U count = 0
+char = V count = 0
+char = W count = 0
+char = X count = 0
+char = Y count = 0
+char = Z count = 0
+Symbol = B frequency = 5
+Symbol = E frequency = 10
+Symbol = C frequency = 12
+Symbol = A frequency = 16
+Symbol = D frequency = 17
+Symbol = F frequency = 25
+end initial heap display
+
+ for debug p->frequency = 5 and q->frequency = 10
+just inserted frequency = 15
+ for debug p->frequency = 12 and q->frequency = 15
+just inserted frequency = 27
+ for debug p->frequency = 16 and q->frequency = 17
+just inserted frequency = 33
+ for debug p->frequency = 25 and q->frequency = 27
+just inserted frequency = 52
+ for debug p->frequency = 33 and q->frequency = 52
+just inserted frequency = 85
+the constructor has built the huffman tree
+Frequency = 16 the letter is A the binary string is 00
+Frequency = 33
+Frequency = 17 the letter is D the binary string is 01
+Frequency = 85
+Frequency = 25 the letter is F the binary string is 10
+Frequency = 52
+Frequency = 12 the letter is C the binary string is 110
+Frequency = 27
+Frequency = 5 the letter is B the binary string is 1110
+Frequency = 15
+Frequency = 10 the letter is E the binary string is 1111
+Destructor executing
+--- Running again ---
+ 
+
+Name: Adam Abad
+Huffman Code
+Uses a priority heap and binary tree to construct a Huffman Code.
+
+enter the name of a file containing the characters
+The file /home/mathcs/turnin/bracken/huffman3.test
+char = A count = 5
+char = B count = 4
+char = C count = 1
+char = D count = 1
+char = E count = 1
+char = F count = 1
+char = G count = 1
+char = H count = 1
+char = I count = 1
+char = J count = 1
+char = K count = 1
+char = L count = 1
+char = M count = 1
+char = N count = 1
+char = O count = 1
+char = P count = 1
+char = Q count = 1
+char = R count = 1
+char = S count = 1
+char = T count = 1
+char = U count = 1
+char = V count = 1
+char = W count = 1
+char = X count = 1
+char = Y count = 1
+char = Z count = 1
+Symbol = C frequency = 1
+Symbol = D frequency = 1
+Symbol = E frequency = 1
+Symbol = F frequency = 1
+Symbol = G frequency = 1
+Symbol = H frequency = 1
+Symbol = I frequency = 1
+Symbol = J frequency = 1
+Symbol = K frequency = 1
+Symbol = L frequency = 1
+Symbol = M frequency = 1
+Symbol = N frequency = 1
+Symbol = O frequency = 1
+Symbol = P frequency = 1
+Symbol = Q frequency = 1
+Symbol = R frequency = 1
+Symbol = S frequency = 1
+Symbol = T frequency = 1
+Symbol = U frequency = 1
+Symbol = V frequency = 1
+Symbol = W frequency = 1
+Symbol = X frequency = 1
+Symbol = Y frequency = 1
+Symbol = Z frequency = 1
+Symbol = B frequency = 4
+Symbol = A frequency = 5
+end initial heap display
+
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 4 and q->frequency = 4
+just inserted frequency = 8
+ for debug p->frequency = 4 and q->frequency = 4
+just inserted frequency = 8
+ for debug p->frequency = 4 and q->frequency = 4
+just inserted frequency = 8
+ for debug p->frequency = 4 and q->frequency = 5
+just inserted frequency = 9
+ for debug p->frequency = 8 and q->frequency = 8
+just inserted frequency = 16
+ for debug p->frequency = 8 and q->frequency = 9
+just inserted frequency = 17
+ for debug p->frequency = 16 and q->frequency = 17
+just inserted frequency = 33
+the constructor has built the huffman tree
+Frequency = 1 the letter is G the binary string is 00000
+Frequency = 2
+Frequency = 1 the letter is H the binary string is 00001
+Frequency = 4
+Frequency = 1 the letter is I the binary string is 00010
+Frequency = 2
+Frequency = 1 the letter is J the binary string is 00011
+Frequency = 8
+Frequency = 1 the letter is K the binary string is 00100
+Frequency = 2
+Frequency = 1 the letter is L the binary string is 00101
+Frequency = 4
+Frequency = 1 the letter is M the binary string is 00110
+Frequency = 2
+Frequency = 1 the letter is N the binary string is 00111
+Frequency = 16
+Frequency = 1 the letter is O the binary string is 01000
+Frequency = 2
+Frequency = 1 the letter is P the binary string is 01001
+Frequency = 4
+Frequency = 1 the letter is Q the binary string is 01010
+Frequency = 2
+Frequency = 1 the letter is R the binary string is 01011
+Frequency = 8
+Frequency = 1 the letter is S the binary string is 01100
+Frequency = 2
+Frequency = 1 the letter is T the binary string is 01101
+Frequency = 4
+Frequency = 1 the letter is U the binary string is 01110
+Frequency = 2
+Frequency = 1 the letter is V the binary string is 01111
+Frequency = 33
+Frequency = 4 the letter is B the binary string is 100
+Frequency = 8
+Frequency = 1 the letter is C the binary string is 10100
+Frequency = 2
+Frequency = 1 the letter is D the binary string is 10101
+Frequency = 4
+Frequency = 1 the letter is E the binary string is 10110
+Frequency = 2
+Frequency = 1 the letter is F the binary string is 10111
+Frequency = 17
+Frequency = 1 the letter is W the binary string is 11000
+Frequency = 2
+Frequency = 1 the letter is X the binary string is 11001
+Frequency = 4
+Frequency = 1 the letter is Y the binary string is 11010
+Frequency = 2
+Frequency = 1 the letter is Z the binary string is 11011
+Frequency = 9
+Frequency = 5 the letter is A the binary string is 111
+Destructor executing
+--- Running again ---
+ 
+
+Name: Adam Abad
+Huffman Code
+Uses a priority heap and binary tree to construct a Huffman Code.
+
+enter the name of a file containing the characters
+The file /home/mathcs/turnin/bracken/huffman4.test
+char = A count = 1
+char = B count = 1
+char = C count = 1
+char = D count = 1
+char = E count = 1
+char = F count = 1
+char = G count = 1
+char = H count = 1
+char = I count = 1
+char = J count = 1
+char = K count = 1
+char = L count = 1
+char = M count = 1
+char = N count = 1
+char = O count = 1
+char = P count = 1
+char = Q count = 1
+char = R count = 1
+char = S count = 1
+char = T count = 1
+char = U count = 1
+char = V count = 1
+char = W count = 1
+char = X count = 1
+char = Y count = 1
+char = Z count = 1
+Symbol = A frequency = 1
+Symbol = B frequency = 1
+Symbol = C frequency = 1
+Symbol = D frequency = 1
+Symbol = E frequency = 1
+Symbol = F frequency = 1
+Symbol = G frequency = 1
+Symbol = H frequency = 1
+Symbol = I frequency = 1
+Symbol = J frequency = 1
+Symbol = K frequency = 1
+Symbol = L frequency = 1
+Symbol = M frequency = 1
+Symbol = N frequency = 1
+Symbol = O frequency = 1
+Symbol = P frequency = 1
+Symbol = Q frequency = 1
+Symbol = R frequency = 1
+Symbol = S frequency = 1
+Symbol = T frequency = 1
+Symbol = U frequency = 1
+Symbol = V frequency = 1
+Symbol = W frequency = 1
+Symbol = X frequency = 1
+Symbol = Y frequency = 1
+Symbol = Z frequency = 1
+end initial heap display
+
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 1 and q->frequency = 1
+just inserted frequency = 2
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 2 and q->frequency = 2
+just inserted frequency = 4
+ for debug p->frequency = 2 and q->frequency = 4
+just inserted frequency = 6
+ for debug p->frequency = 4 and q->frequency = 4
+just inserted frequency = 8
+ for debug p->frequency = 4 and q->frequency = 4
+just inserted frequency = 8
+ for debug p->frequency = 4 and q->frequency = 6
+just inserted frequency = 10
+ for debug p->frequency = 8 and q->frequency = 8
+just inserted frequency = 16
+ for debug p->frequency = 10 and q->frequency = 16
+just inserted frequency = 26
+the constructor has built the huffman tree
+Frequency = 1 the letter is C the binary string is 0000
+Frequency = 2
+Frequency = 1 the letter is D the binary string is 0001
+Frequency = 4
+Frequency = 1 the letter is Q the binary string is 0010
+Frequency = 2
+Frequency = 1 the letter is R the binary string is 0011
+Frequency = 10
+Frequency = 1 the letter is E the binary string is 0100
+Frequency = 2
+Frequency = 1 the letter is F the binary string is 0101
+Frequency = 6
+Frequency = 1 the letter is A the binary string is 01100
+Frequency = 2
+Frequency = 1 the letter is Z the binary string is 01101
+Frequency = 4
+Frequency = 1 the letter is M the binary string is 01110
+Frequency = 2
+Frequency = 1 the letter is N the binary string is 01111
+Frequency = 26
+Frequency = 1 the letter is K the binary string is 10000
+Frequency = 2
+Frequency = 1 the letter is L the binary string is 10001
+Frequency = 4
+Frequency = 1 the letter is U the binary string is 10010
+Frequency = 2
+Frequency = 1 the letter is V the binary string is 10011
+Frequency = 8
+Frequency = 1 the letter is I the binary string is 10100
+Frequency = 2
+Frequency = 1 the letter is J the binary string is 10101
+Frequency = 4
+Frequency = 1 the letter is S the binary string is 10110
+Frequency = 2
+Frequency = 1 the letter is T the binary string is 10111
+Frequency = 16
+Frequency = 1 the letter is G the binary string is 11000
+Frequency = 2
+Frequency = 1 the letter is H the binary string is 11001
+Frequency = 4
+Frequency = 1 the letter is O the binary string is 11010
+Frequency = 2
+Frequency = 1 the letter is P the binary string is 11011
+Frequency = 8
+Frequency = 1 the letter is Y the binary string is 11100
+Frequency = 2
+Frequency = 1 the letter is B the binary string is 11101
+Frequency = 4
+Frequency = 1 the letter is W the binary string is 11110
+Frequency = 2
+Frequency = 1 the letter is X the binary string is 11111
+Destructor executing
+ 

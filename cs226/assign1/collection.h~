@@ -1,0 +1,46 @@
+//******************************************************************
+// File: collection.h
+// Author: Adam Abad
+// Date: 2/10/19
+// Program Name: Collection
+// Assignment 2
+// Collection uses a template class to set up a generic array 
+//      and perform various actions to alter data in it.
+// Collection sets up two arrays then promts the user for an 
+//      action using the option menu. Then, the corresponding 
+//      message will appear and promt the user for aditional 
+//      input regarding their choice.
+//******************************************************************
+
+
+
+//******************************************************************
+// Header file collection.h for collection.cpp
+//******************************************************************
+
+#include <iostream>
+using namespace std;
+#define ARRAYSIZE 20
+
+//Collection holds an array of objects and a 'currentValue' that 
+// stores the position in the array.
+template <class T> class collection {
+	public:
+		//Constructor and Destructor
+		collection();
+		~collection();
+	
+		//Operators
+		bool isEmpty();
+		void makeEmpty();
+		void Insert(T item, bool& Success);
+		void Remove(T& item, bool& Success);
+		bool Contains(T item);
+		void Display();
+		collection<T>& operator= (const collection<T>& Rhs);
+		bool operator== (const collection<T>& Rhs);
+	private:
+		T mainArray[ARRAYSIZE];
+		int currentValue;
+};
+#include "collection.cpp"

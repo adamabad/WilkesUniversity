@@ -1,0 +1,41 @@
+//******************************************************************
+// File: assigncolor.cpp
+// Author: Adam Abad
+// Date: 5/2/19
+// Program Name: Graph Color
+//
+// AssignColor utilizes the Welch-Powell Algorithm to color a graph.
+//  this implementation uses an adjcency list of nodes to simulate a
+//  graph. This implementation all uses a color list, and inDegree list
+//  to keep data on the nodes.
+// 
+// I have tested this program and it works properly.
+//******************************************************************
+
+//******************************************************************
+// Driver program for The Graph Coloring Program
+// Takes data from a file and uses an adjcency list to simulate a graph.
+//******************************************************************
+
+#include "color.h"
+#include <string>
+
+using namespace std;
+
+void header() {
+  cout<<"\nName: Adam Abad\n";
+  cout<<"Graph Coloring\n";
+  cout<<".\n\n"; //NEEED COMMMENT EHRER
+}
+
+int main() {
+  header();
+  color graph;
+  int colors;
+  cout<<"Main about to color the graph.\n";
+  colors = graph.Colorit();
+  cout<<"The graph has "<<colors<<" colors.\n";
+  cout<<"Main printing the color.\n";
+  cout<<"The colored graph: \n";
+  graph.Printcolor();
+}

@@ -1,0 +1,51 @@
+// File: Rainbow.java
+// Date: January 30, 2018
+// Author: Adam Abad
+// Purpose: To calculate the hight of a rainbow
+//          given a user's distance away from it
+
+import java.util*;
+
+public class Rainbow
+{
+    Scanner theKeyboard = new Scanner(System.in);
+    
+    public static void main(String args[])
+    {
+	intro();
+	double distance;
+	distance = getDistance();
+	double height;
+	height = calcHeight(distance);
+	printOutput(height);
+    }
+    
+    public static void intro()
+    {
+	System.out.println();
+	System.out.println("Program to calculate the height" +
+			   " of a rainbow.");
+	System.out.println("Program checks that the distance" +
+			   " is greater");
+	System.out.println("than zero.");
+	System.out.println("Written by Adam Abad.");
+	System.out.println("You will be asked to enter the" +
+			   " distance to the rainbow.");
+	System.out.println();
+    }
+
+    public static double getDistance()
+    {
+	System.out.print("Enter distance: ");
+	double distance;
+	distance = theKeyboard.nextDouble();
+	//Turnin Enter
+	System.out.println();
+	System.out.println();
+	return distance;
+    }
+
+    public static double calcHeight()
+    {
+    }
+}

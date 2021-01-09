@@ -1,0 +1,128 @@
+//HEADER
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+
+int data[10]; //buffer
+int position = 0; //position of the consumers
+int current = 0; //Current integer for the producers
+
+pthread_mutex_t lockit=PTHREAD_MUTEX_INITIALIZER;
+pthread_cond_t signalit=PTHREAD_COND_INITIALIZER;
+
+void producer(int threadNum) {
+	printf("I am a producer and my thread number is %i.\n", threadNum);
+	fflush(stdout);
+	while(1) {
+	    pthread_mutex_lock(&lockit);
+        while(data[((current - 1)%10)] != 0) {
+            pthread_cond_wait(&signalit,&lockit);
+        }
+        current++;
+		if(current > 99) {
+			data[(current - 1)%10] = -1;
+			pthread_cond_broadcast(&signalit);
+			pthread_mutex_unlock(&lockit);
+	        break;
+	    } 
+		else {
+			data[(current - 1 )%10] = current;
+			printf("Thread: %i Produced: %i\n",threadNum,current);
+			pthread_cond_broadcast(&signalit);
+			pthread_mutex_unlock(&lockit);
+		}
+	}
+	//2 procducers cooperate to produce 0-99 in a 10-integer buffer
+	//must not interfere with each other
+	//must not produce into a buffer that is not consumed
+	//must produce the "next" value ie. 2 after 1
+	//Producing producer prints a message with its thread num. and the value being produced
+	//after 99 has been produced, BOTH producers must terminate
+    printf("Producer %i exiting.\n", threadNum);
+	fflush(stdout);
+}
+
+void consumer(int threadNum) {
+	int i;
+	printf("I am a consumer and my thread number is %i.\n", threadNum);
+	fflush(stdout);
+	while(1) {
+		pthread_mutex_lock(&lockit);
+		while(data[position%10] == 0) {
+			pthread_cond_wait(&signalit,&lockit);
+		}
+		i = data[position%10];
+		data[position%10] = 0;
+		position++;
+		if(i == -1) {
+			pthread_cond_broadcast(&signalit);
+			pthread_mutex_unlock(&lockit);
+			break;
+		}
+		else {
+			printf("Thread: %i Consumed: %i\n", threadNum, i);
+			fflush(stdout);
+			pthread_cond_broadcast(&signalit);
+			pthread_mutex_unlock(&lockit);
+		}
+	}
+	//2 consumers cooperate to the consume values from the buffer until all values have been consumed
+	//"Consuming" involves displaying the value
+	//The consuming consumer must print its threat # w/ the value consumed
+	//values must be consumed in order which they were produced, after 99 both must terminate
+	//
+	printf("Consumer %i exiting.\n", threadNum);
+	fflush(stdout);
+}
+int main() {
+	void *statusp;
+	pthread_t *threads;
+	for(int x = 0; x < 10; x++) {
+	    data[x] = 0;
+	}
+	if((threads=malloc(sizeof(pthread_t)*4)) == NULL) {
+		printf("Error Allocating thread\n");
+		exit(-1);
+	}
+	if((pthread_create(&threads[0],NULL,(void *)producer,(void *)0)) != 0) {
+		printf("Error creating producer 1.\n");
+		exit(-1);
+	}
+	if((pthread_create(&threads[1],NULL,(void *)producer,(void *)1)) != 0) {
+		printf("Error creating producer 2.\n");
+		exit(-1);
+	}
+	if((pthread_create(&threads[2],NULL,(void *)consumer,(void *)2)) != 0) {
+		printf("Error creating consumer 1.\n");
+		exit(-1);
+	}
+	if((pthread_create(&threads[3],NULL,(void *)consumer,(void *)3)) != 0) {
+		printf("Error creating consumer 2.\n");
+		exit(-1);
+	}
+	if((pthread_join(threads[0],&statusp)) != 0) {
+		printf("Could not join producer 1.\n");
+		fflush(stdout);
+	}
+	if((pthread_join(threads[1],&statusp)) != 0) {
+		printf("Could not join producer 2.\n");
+		fflush(stdout);
+	}
+	if((pthread_join(threads[2],&statusp)) != 0) {
+		printf("Could not join consumer 1.\n");
+		fflush(stdout);
+	}
+	if((pthread_join(threads[3],&statusp)) != 0) {
+		printf("Could not join consumer 2.\n");
+		fflush(stdout);
+	}
+	if((pthread_mutex_destroy(&lockit)) != 0) {
+		printf("Could not destory the mutex.\n");
+		fflush(stdout);
+	}
+	if((pthread_cond_destroy(&signalit)) != 0) {
+		printf("Could not destroy the conditional variable.\n");
+		fflush(stdout);
+	}
+}

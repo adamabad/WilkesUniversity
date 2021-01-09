@@ -1,0 +1,58 @@
+(3a) ls a*
+agnes  albert  angua  atuin  auditors
+
+(3b) ls *s
+agnes  auditors  detritus  poons  stibbons  things  vimes  witches
+
+(3c) ls a*s
+agnes  auditors
+
+(3d) ls [aeiou]*
+agnes  albert  angua  atuin  auditors  eskarina  esme  io  otto
+
+(3e) ls *[^aeiou]
+agnes	  bursar  detritus  leonard    pthagonal  susan      witches
+albert	  carrot  dorfl     librarian  reg	  things     you-bastard
+atuin	  cmot	  hex	    magrat     ridcully   twoflower  ysabell
+auditors  cohen   hughnon   mort       rincewind  vimes
+bigmac	  dean	  johnny    nobby      slant	  war
+brown	  death   lady	    poons      stibbons   whitlow
+
+(3f) ls [aeiou]*[^aeiou]
+agnes  albert  atuin  auditors
+
+(3g) ls *[^a-z]*
+you-bastard
+
+(3h) ls *[o]*[o]*
+otto  poons  twoflower
+
+(3i) ls *[o][o]*
+poons
+
+(3j) ls *[a]*[s]*
+agnes  auditors  gaspode  sacharissa  you-bastard
+
+(3k) ls ???
+hex  reg  war
+
+(3l) ls ???*
+agnes	  carrot     eskarina  lady	  poons       teatime	 worde
+albert	  christine  esme      leonard	  pthagonal   things	 you-bastard
+angua	  cmot	     fate      librarian  reg	      twoflower  ysabell
+atuin	  cohen      gaspode   luggage	  ridcully    verence
+auditors  cripplewa  greebo    lutze	  rincewind   vetinari
+banjo	  dean	     gytha     magrat	  sacharissa  vimes
+bigmac	  death      hex       mort	  slant       war
+brown	  detritus   hughnon   nobby	  stibbons    whitlow
+bursar	  dorfl      johnny    otto	  susan       witches
+
+(3m) ls [a-m]*
+agnes	  banjo   christine  death     fate	hughnon  librarian
+albert	  bigmac  cmot	     detritus  gaspode	io	 luggage
+angua	  brown   cohen      dorfl     greebo	johnny	 lutze
+atuin	  bursar  cripplewa  eskarina  gytha	lady	 magrat
+auditors  carrot  dean	     esme      hex	leonard  mort
+
+(3n) ls [a-m]???
+cmot  dean  esme  fate	lady  mort

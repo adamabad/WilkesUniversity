@@ -1,0 +1,1046 @@
+Username:  abada
+Date:      Wed Apr 3 18:49:47 EDT 2019
+ 
+***making assign9 ***
+make: 'assign9' is up to date.
+--- Running ---
+ 
+
+Name: Adam Abad
+General Trees
+Uses a linked list to create and navigate a general tree.
+
+To use the general tree, please enter an inital root: 
+1 was made the root of the tree.
+Please enter 'y' to continue adding nodes, or 'n' to stop: 
+You pressed 'y'.
+Enter the parent of the node you want to make: 
+You have set 1 as the parent.
+Enter the node you want to make: 
+2 was inserted into the tree.
+Please enter 'y' to continue adding nodes, or 'n' to stop: 
+You pressed 'y'.
+Enter the parent of the node you want to make: 
+You have set 1 as the parent.
+Enter the node you want to make: 
+3 was inserted into the tree.
+Please enter 'y' to continue adding nodes, or 'n' to stop: 
+You pressed 'y'.
+Enter the parent of the node you want to make: 
+You have set 1 as the parent.
+Enter the node you want to make: 
+4 was inserted into the tree.
+Please enter 'y' to continue adding nodes, or 'n' to stop: 
+You pressed 'y'.
+Enter the parent of the node you want to make: 
+You have set 2 as the parent.
+Enter the node you want to make: 
+5 was inserted into the tree.
+Please enter 'y' to continue adding nodes, or 'n' to stop: 
+You pressed 'y'.
+Enter the parent of the node you want to make: 
+You have set 2 as the parent.
+Enter the node you want to make: 
+6 was inserted into the tree.
+Please enter 'y' to continue adding nodes, or 'n' to stop: 
+You pressed 'y'.
+Enter the parent of the node you want to make: 
+You have set 2 as the parent.
+Enter the node you want to make: 
+7 was inserted into the tree.
+Please enter 'y' to continue adding nodes, or 'n' to stop: 
+You pressed 'y'.
+Enter the parent of the node you want to make: 
+You have set 4 as the parent.
+Enter the node you want to make: 
+8 was inserted into the tree.
+Please enter 'y' to continue adding nodes, or 'n' to stop: 
+You pressed 'y'.
+Enter the parent of the node you want to make: 
+You have set 4 as the parent.
+Enter the node you want to make: 
+9 was inserted into the tree.
+Please enter 'y' to continue adding nodes, or 'n' to stop: 
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 1
+
+Enter an item to search for: 
+1 is in the tree.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 1
+
+Enter an item to search for: 
+2 is in the tree.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 1
+
+Enter an item to search for: 
+3 is in the tree.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 1
+
+Enter an item to search for: 
+4 is in the tree.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 1
+
+Enter an item to search for: 
+5 is in the tree.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 1
+
+Enter an item to search for: 
+6 is in the tree.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 1
+
+Enter an item to search for: 
+7 is in the tree.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 1
+
+Enter an item to search for: 
+8 is in the tree.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 1
+
+Enter an item to search for: 
+9 is in the tree.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 1
+
+Enter an item to search for: 
+10 is not in the tree.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 1
+
+Enter an item to search for: 
+11 is not in the tree.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 2
+
+Enter a node to print children from: 
+Node 1's children: 2 3 4 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 2
+
+Enter a node to print children from: 
+Node 2's children: 5 6 7 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 2
+
+Enter a node to print children from: 
+Node 3's children: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 2
+
+Enter a node to print children from: 
+Node 4's children: 8 9 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 2
+
+Enter a node to print children from: 
+Node 5's children: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 2
+
+Enter a node to print children from: 
+Node 6's children: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 2
+
+Enter a node to print children from: 
+Node 7's children: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 2
+
+Enter a node to print children from: 
+Node 8's children: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 2
+
+Enter a node to print children from: 
+Node 9's children: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 3
+
+Enter a node to print siblings of: 
+Node 1's siblings: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 3
+
+Enter a node to print siblings of: 
+Node 2's siblings: 3 4 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 3
+
+Enter a node to print siblings of: 
+Node 3's siblings: 2 4 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 3
+
+Enter a node to print siblings of: 
+Node 4's siblings: 2 3 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 3
+
+Enter a node to print siblings of: 
+Node 5's siblings: 6 7 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 3
+
+Enter a node to print siblings of: 
+Node 6's siblings: 5 7 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 3
+
+Enter a node to print siblings of: 
+Node 7's siblings: 5 6 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 3
+
+Enter a node to print siblings of: 
+Node 8's siblings: 9 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 3
+
+Enter a node to print siblings of: 
+Node 9's siblings: 8 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 3
+
+Enter a node to print siblings of: 
+The node does not exist.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 4
+
+Enter a node to print left siblings of: 
+Node 1's left siblings: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 4
+
+Enter a node to print left siblings of: 
+Node 2's left siblings: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 4
+
+Enter a node to print left siblings of: 
+Node 3's left siblings: 2 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 4
+
+Enter a node to print left siblings of: 
+Node 4's left siblings: 3 2 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 4
+
+Enter a node to print left siblings of: 
+Node 5's left siblings: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 4
+
+Enter a node to print left siblings of: 
+Node 6's left siblings: 5 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 4
+
+Enter a node to print left siblings of: 
+Node 7's left siblings: 6 5 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 4
+
+Enter a node to print left siblings of: 
+Node 8's left siblings: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 4
+
+Enter a node to print left siblings of: 
+Node 9's left siblings: 8 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 5
+
+Enter a node to print right siblings of: 
+Node 1's right siblings: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 5
+
+Enter a node to print right siblings of: 
+Node 2's right siblings: 3 4 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 5
+
+Enter a node to print right siblings of: 
+Node 3's right siblings: 4 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 5
+
+Enter a node to print right siblings of: 
+Node 4's right siblings: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 5
+
+Enter a node to print right siblings of: 
+Node 5's right siblings: 6 7 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 5
+
+Enter a node to print right siblings of: 
+Node 6's right siblings: 7 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 5
+
+Enter a node to print right siblings of: 
+Node 7's right siblings: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 5
+
+Enter a node to print right siblings of: 
+Node 8's right siblings: 9 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 5
+
+Enter a node to print right siblings of: 
+Node 9's right siblings: 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 1 is the root, it does not have a parent.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 2's parent is 1.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 3's parent is 1.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 4's parent is 1.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 5's parent is 2.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 6's parent is 2.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 7's parent is 2.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 8's parent is 4.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 9's parent is 4.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 7
+
+Enter the parent of the node you want to make: 
+You have set 3 as the parent.
+Enter the node you want to make: 
+15 was inserted into the tree.
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 7
+
+Enter the parent of the node you want to make: 
+You have set 4 as the parent.
+Enter the node you want to make: 
+16 was inserted into the tree.
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 7
+
+Enter the parent of the node you want to make: 
+You have set 2 as the parent.
+Enter the node you want to make: 
+18 was inserted into the tree.
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 7
+
+Enter the parent of the node you want to make: 
+You have set 1 as the parent.
+Enter the node you want to make: 
+19 was inserted into the tree.
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 7
+
+Enter the parent of the node you want to make: 
+You have set 6 as the parent.
+Enter the node you want to make: 
+20 was inserted into the tree.
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 20's parent is 6.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 19's parent is 1.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 18's parent is 2.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 16's parent is 4.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 6
+
+Enter a node to print the parent of: 
+Item 15's parent is 3.
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 2
+
+Enter a node to print children from: 
+Node 1's children: 2 3 4 19 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 3
+
+Enter a node to print siblings of: 
+Node 2's siblings: 3 4 19 
+
+1. Search for Item
+2. Display all Children
+3. Display all siblings
+4. Display Left Siblings
+5. Display Right Siblings
+6. Display Parent
+7. Add Node
+8. Exit
+Please enter your Option: 
+You chose option 8
+
+ 

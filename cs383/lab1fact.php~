@@ -1,0 +1,9 @@
+<?php
+
+Function factorial(value ,n = 0) {
+  $n == 0 ? return value : return factorial(value * $n, n - 1); 
+}
+
+for(num in 
+
+?>

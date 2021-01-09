@@ -1,0 +1,11 @@
+CFLAGS = -c -Wall -g
+LFLAGS = -g -o ss
+
+ss: ss.o 
+	g++ ss.o $(LFLAGS)
+
+ss.o: ss.cpp 
+	g++ $(CFLAGS) ss.cpp
+
+clean:
+	rm -f ss *.o *~ *#

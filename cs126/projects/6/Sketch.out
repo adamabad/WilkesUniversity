@@ -1,0 +1,266 @@
+Username:  abada
+Date:      Thu Feb 22 12:05:59 EST 2018
+ 
+*** Compiling ***
+javac *.java
+--- Running ---
+
+Program to sketch a suspect.
+You will be asked to choose a hairstyle, nose type,
+eye type and mouth type. Then your sketch will be made.
+Written by Adam Abad.
+
+Please enter a hairstyle:
+        1, for bald;
+        2, for crew-cut;
+        3, for curly;
+        4, for wearing a hat;
+-->
+
+Please enter eye choice:
+        1, for beady;
+        2, for bug-eyed;
+        3, for glasses;
+        4, for closed;
+-->
+
+Please enter nose choice:
+        1, for pug;
+        2, for small;
+        3, for medium;
+        4, for large;
+-->
+
+Please enter mouth choice:
+        1, for puzzled;
+        2, for smiling;
+        3, for bearded;
+        4, for frowning;
+-->
+
+
+ .......
+ .     .
+(| . . |)
+ |  ^  |
+ | --- |
+  -----
+
+
+--- Running again ---
+
+Program to sketch a suspect.
+You will be asked to choose a hairstyle, nose type,
+eye type and mouth type. Then your sketch will be made.
+Written by Adam Abad.
+
+Please enter a hairstyle:
+        1, for bald;
+        2, for crew-cut;
+        3, for curly;
+        4, for wearing a hat;
+-->
+
+Please enter eye choice:
+        1, for beady;
+        2, for bug-eyed;
+        3, for glasses;
+        4, for closed;
+-->
+
+Please enter nose choice:
+        1, for pug;
+        2, for small;
+        3, for medium;
+        4, for large;
+-->
+
+Please enter mouth choice:
+        1, for puzzled;
+        2, for smiling;
+        3, for bearded;
+        4, for frowning;
+-->
+
+ -----
+ |     |
+_________
+(|-o-o-|)
+ |  .  |
+ |  ^  |
+  -----
+
+
+--- Running again ---
+
+Program to sketch a suspect.
+You will be asked to choose a hairstyle, nose type,
+eye type and mouth type. Then your sketch will be made.
+Written by Adam Abad.
+
+Please enter a hairstyle:
+        1, for bald;
+        2, for crew-cut;
+        3, for curly;
+        4, for wearing a hat;
+-->
+Choice must be between 1 and 4, not 5
+
+Please enter a hairstyle:
+        1, for bald;
+        2, for crew-cut;
+        3, for curly;
+        4, for wearing a hat;
+-->
+
+Please enter eye choice:
+        1, for beady;
+        2, for bug-eyed;
+        3, for glasses;
+        4, for closed;
+-->
+
+Please enter nose choice:
+        1, for pug;
+        2, for small;
+        3, for medium;
+        4, for large;
+-->
+
+Please enter mouth choice:
+        1, for puzzled;
+        2, for smiling;
+        3, for bearded;
+        4, for frowning;
+-->
+
+   cCc
+ cCCCCCc
+ c     c
+(| O O |)
+ |  ^  |
+ |\___/|
+  -----
+
+
+--- Running again ---
+
+Program to sketch a suspect.
+You will be asked to choose a hairstyle, nose type,
+eye type and mouth type. Then your sketch will be made.
+Written by Adam Abad.
+
+Please enter a hairstyle:
+        1, for bald;
+        2, for crew-cut;
+        3, for curly;
+        4, for wearing a hat;
+-->
+
+Please enter eye choice:
+        1, for beady;
+        2, for bug-eyed;
+        3, for glasses;
+        4, for closed;
+-->
+Choice must be between 1 and 4, not 6
+
+Please enter eye choice:
+        1, for beady;
+        2, for bug-eyed;
+        3, for glasses;
+        4, for closed;
+-->
+
+Please enter nose choice:
+        1, for pug;
+        2, for small;
+        3, for medium;
+        4, for large;
+-->
+Choice must be between 1 and 4, not 6
+
+Please enter nose choice:
+        1, for pug;
+        2, for small;
+        3, for medium;
+        4, for large;
+-->
+
+Please enter mouth choice:
+        1, for puzzled;
+        2, for smiling;
+        3, for bearded;
+        4, for frowning;
+-->
+Choice must be between 1 and 4, not 6
+
+Please enter mouth choice:
+        1, for puzzled;
+        2, for smiling;
+        3, for bearded;
+        4, for frowning;
+-->
+Choice must be between 1 and 4, not 5
+
+Please enter mouth choice:
+        1, for puzzled;
+        2, for smiling;
+        3, for bearded;
+        4, for frowning;
+-->
+
+
+\|||||||/
+ |     |
+(|-o-o-|)
+ |  _\ |
+ |||-|||
+  |||||
+   |||
+
+--- Running again ---
+
+Program to sketch a suspect.
+You will be asked to choose a hairstyle, nose type,
+eye type and mouth type. Then your sketch will be made.
+Written by Adam Abad.
+
+Please enter a hairstyle:
+        1, for bald;
+        2, for crew-cut;
+        3, for curly;
+        4, for wearing a hat;
+-->
+
+Please enter eye choice:
+        1, for beady;
+        2, for bug-eyed;
+        3, for glasses;
+        4, for closed;
+-->
+
+Please enter nose choice:
+        1, for pug;
+        2, for small;
+        3, for medium;
+        4, for large;
+-->
+
+Please enter mouth choice:
+        1, for puzzled;
+        2, for smiling;
+        3, for bearded;
+        4, for frowning;
+-->
+
+
+\|||||||/
+ |     |
+(| O O |)
+ |  .  |
+ |\___/|
+  -----
+
+
+rm -f *.class *~ *#

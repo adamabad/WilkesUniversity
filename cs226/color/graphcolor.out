@@ -1,0 +1,198 @@
+Username:  abada
+Date:      Wed May 1 18:12:09 EDT 2019
+ 
+*** making graphcolor ***
+make: 'assigncolor' is up to date.
+--- Running ---
+ 
+
+Name: Adam Abad
+Graph Coloring
+Takes a file and constructs a graph, then colors it.
+
+Enter the file name: 
+The file /home/mathcs/turnin/bracken/color1.dat
+N = nodes in graph. . . n = 8
+Constructor checking adjacency list: 
+Adjacency List of 0
+Next node in the list: 6
+Next node in the list: 3
+Next node in the list: 2
+Next node in the list: 1
+Adjacency List of 1
+Next node in the list: 4
+Next node in the list: 3
+Next node in the list: 2
+Next node in the list: 0
+Adjacency List of 2
+Next node in the list: 5
+Next node in the list: 6
+Next node in the list: 4
+Next node in the list: 1
+Next node in the list: 0
+Adjacency List of 3
+Next node in the list: 6
+Next node in the list: 4
+Next node in the list: 1
+Next node in the list: 0
+Adjacency List of 4
+Next node in the list: 6
+Next node in the list: 7
+Next node in the list: 5
+Next node in the list: 3
+Next node in the list: 2
+Next node in the list: 1
+Adjacency List of 5
+Next node in the list: 7
+Next node in the list: 4
+Next node in the list: 2
+Adjacency List of 6
+Next node in the list: 7
+Next node in the list: 4
+Next node in the list: 3
+Next node in the list: 2
+Next node in the list: 0
+Adjacency List of 7
+Next node in the list: 6
+Next node in the list: 5
+Next node in the list: 4
+Constructor checking the indegree list: 
+Node Name: 0 Indegree: 4
+Node Name: 1 Indegree: 4
+Node Name: 2 Indegree: 5
+Node Name: 3 Indegree: 4
+Node Name: 4 Indegree: 6
+Node Name: 5 Indegree: 3
+Node Name: 6 Indegree: 5
+Node Name: 7 Indegree: 3
+Main about to color the graph.
+Sorting by inDegree...
+ColorIt printing the sorted degree list: 
+Node Name: 4 Indegree: 6
+Node Name: 2 Indegree: 5
+Node Name: 6 Indegree: 5
+Node Name: 0 Indegree: 4
+Node Name: 1 Indegree: 4
+Node Name: 3 Indegree: 4
+Node Name: 5 Indegree: 3
+Node Name: 7 Indegree: 3
+Coloring the graph.
+The graph has 3 colors.
+Main printing the color.
+The colored graph: 
+Node: 0 Color: 1
+Node: 1 Color: 3
+Node: 2 Color: 2
+Node: 3 Color: 2
+Node: 4 Color: 1
+Node: 5 Color: 3
+Node: 6 Color: 3
+Node: 7 Color: 2
+Destructor Executing.
+--- Running again ---
+ 
+
+Name: Adam Abad
+Graph Coloring
+Takes a file and constructs a graph, then colors it.
+
+Enter the file name: 
+The file /home/mathcs/turnin/bracken/color2.dat
+N = nodes in graph. . . n = 4
+Constructor checking adjacency list: 
+Adjacency List of 0
+Next node in the list: 1
+Adjacency List of 1
+Next node in the list: 2
+Next node in the list: 0
+Adjacency List of 2
+Next node in the list: 3
+Next node in the list: 1
+Adjacency List of 3
+Next node in the list: 2
+Constructor checking the indegree list: 
+Node Name: 0 Indegree: 1
+Node Name: 1 Indegree: 2
+Node Name: 2 Indegree: 2
+Node Name: 3 Indegree: 1
+Main about to color the graph.
+Sorting by inDegree...
+ColorIt printing the sorted degree list: 
+Node Name: 1 Indegree: 2
+Node Name: 2 Indegree: 2
+Node Name: 0 Indegree: 1
+Node Name: 3 Indegree: 1
+Coloring the graph.
+The graph has 2 colors.
+Main printing the color.
+The colored graph: 
+Node: 0 Color: 2
+Node: 1 Color: 1
+Node: 2 Color: 2
+Node: 3 Color: 1
+Destructor Executing.
+--- Running again ---
+ 
+
+Name: Adam Abad
+Graph Coloring
+Takes a file and constructs a graph, then colors it.
+
+Enter the file name: 
+The file /home/mathcs/turnin/bracken/color3.dat
+N = nodes in graph. . . n = 6
+Constructor checking adjacency list: 
+Adjacency List of 0
+Next node in the list: 2
+Next node in the list: 1
+Adjacency List of 1
+Next node in the list: 3
+Next node in the list: 5
+Next node in the list: 4
+Next node in the list: 2
+Next node in the list: 0
+Adjacency List of 2
+Next node in the list: 4
+Next node in the list: 1
+Next node in the list: 0
+Adjacency List of 3
+Next node in the list: 5
+Next node in the list: 4
+Next node in the list: 1
+Adjacency List of 4
+Next node in the list: 5
+Next node in the list: 3
+Next node in the list: 2
+Next node in the list: 1
+Adjacency List of 5
+Next node in the list: 4
+Next node in the list: 3
+Next node in the list: 1
+Constructor checking the indegree list: 
+Node Name: 0 Indegree: 2
+Node Name: 1 Indegree: 5
+Node Name: 2 Indegree: 3
+Node Name: 3 Indegree: 3
+Node Name: 4 Indegree: 4
+Node Name: 5 Indegree: 3
+Main about to color the graph.
+Sorting by inDegree...
+ColorIt printing the sorted degree list: 
+Node Name: 1 Indegree: 5
+Node Name: 4 Indegree: 4
+Node Name: 2 Indegree: 3
+Node Name: 3 Indegree: 3
+Node Name: 5 Indegree: 3
+Node Name: 0 Indegree: 2
+Coloring the graph.
+The graph has 4 colors.
+Main printing the color.
+The colored graph: 
+Node: 0 Color: 2
+Node: 1 Color: 1
+Node: 2 Color: 3
+Node: 3 Color: 3
+Node: 4 Color: 2
+Node: 5 Color: 4
+Destructor Executing.
+ 

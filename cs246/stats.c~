@@ -1,0 +1,14 @@
+// File: stats.c
+// Date: March 20, 2018
+// Author: Adam Abad
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+  int count;
+  scanf("%d", &count);
+  double a[count];
+  for(int x = 0; x < count; x++)
+    scanf("%lf",a[x]);
+}

@@ -1,0 +1,1038 @@
+Username:  abada
+Date:      Mon Apr 29 20:37:20 EDT 2019
+ 
+*** compiling ***
+make: 'assign10' is up to date.
+--- Running ---
+ 
+
+Name: Adam Abad
+Graphs
+Uses an array of pointers to represent a graph and perform actions to it.
+
+How many nodes will be in the graph? 
+Allocating an array sized 7
+
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 6 for the parent
+Parent: 0
+Enter an integer from 0 to 6 for the child
+Child:   1
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 6 for the parent
+Parent: 0
+Enter an integer from 0 to 6 for the child
+Child:   3
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 6 for the parent
+Parent: 1
+Enter an integer from 0 to 6 for the child
+Child:   2
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 6 for the parent
+Parent: 1
+Enter an integer from 0 to 6 for the child
+Child:   4
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 6 for the parent
+Parent: 3
+Enter an integer from 0 to 6 for the child
+Child:   4
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 6 for the parent
+Parent: 4
+Enter an integer from 0 to 6 for the child
+Child:   5
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 6 for the parent
+Parent: 4
+Enter an integer from 0 to 6 for the child
+Child:   2
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 6 for the parent
+Parent: 6
+Enter an integer from 0 to 6 for the child
+Child:   3
+Enter an edge? (Y = yes, N = no) 
+You entered: n
+Constructor Ending, checking adjacency list: 
+Adjacency List for 0
+Adjacent to: 3
+Adjacent to: 1
+Adjacency List for 1
+Adjacent to: 4
+Adjacent to: 2
+Adjacency List for 2
+Adjacency List for 3
+Adjacent to: 4
+Adjacency List for 4
+Adjacent to: 2
+Adjacent to: 5
+Adjacency List for 5
+Adjacency List for 6
+Adjacent to: 3
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 0...
+DFS_Visit visiting: 0
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+DFS_Visit visiting: 2
+DFS_Visit visiting: 5
+DFS_Visit visiting: 1
+DFS_Visit visiting: 6
+Depth-First Search for 0 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 2
+
+Executing Topological Sort: 
+Topological Sort calling DFS...
+DFS_Visit visiting: 0
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+DFS_Visit visiting: 2
+DFS_Visit visiting: 5
+DFS_Visit visiting: 1
+DFS_Visit visiting: 6
+
+Topological Sort Results: 
+next node is 6
+next node is 0
+next node is 1
+next node is 3
+next node is 4
+next node is 5
+next node is 2
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 3...
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+DFS_Visit visiting: 2
+DFS_Visit visiting: 5
+DFS_Visit visiting: 6
+DFS_Visit visiting: 0
+DFS_Visit visiting: 1
+Depth-First Search for 3 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 4...
+DFS_Visit visiting: 4
+DFS_Visit visiting: 2
+DFS_Visit visiting: 5
+DFS_Visit visiting: 6
+DFS_Visit visiting: 3
+DFS_Visit visiting: 0
+DFS_Visit visiting: 1
+Depth-First Search for 4 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 5...
+DFS_Visit visiting: 5
+DFS_Visit visiting: 6
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+DFS_Visit visiting: 2
+DFS_Visit visiting: 0
+DFS_Visit visiting: 1
+Depth-First Search for 5 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 2
+
+Executing Topological Sort: 
+Topological Sort calling DFS...
+DFS_Visit visiting: 0
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+DFS_Visit visiting: 2
+DFS_Visit visiting: 5
+DFS_Visit visiting: 1
+DFS_Visit visiting: 6
+
+Topological Sort Results: 
+next node is 6
+next node is 0
+next node is 1
+next node is 3
+next node is 4
+next node is 5
+next node is 2
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 0...
+BFS Visiting: 0
+BFS Visiting: 3
+BFS Visiting: 1
+BFS Visiting: 4
+BFS Visiting: 2
+BFS Visiting: 5
+Breadth-First Search for 0 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 1...
+BFS Visiting: 1
+BFS Visiting: 4
+BFS Visiting: 2
+BFS Visiting: 5
+Breadth-First Search for 1 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 3...
+BFS Visiting: 3
+BFS Visiting: 4
+BFS Visiting: 2
+BFS Visiting: 5
+Breadth-First Search for 3 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 4...
+BFS Visiting: 4
+BFS Visiting: 2
+BFS Visiting: 5
+Breadth-First Search for 4 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 4
+
+Copying Graph...
+n = 7
+Executing DFS at 0 for Graph 2.
+DFS_Visit visiting: 0
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+DFS_Visit visiting: 2
+DFS_Visit visiting: 5
+DFS_Visit visiting: 1
+DFS_Visit visiting: 6
+--- Running again ---
+ 
+
+Name: Adam Abad
+Graphs
+Uses an array of pointers to represent a graph and perform actions to it.
+
+How many nodes will be in the graph? 
+Allocating an array sized 5
+
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 0
+Enter an integer from 0 to 4 for the child
+Child:   1
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 0
+Enter an integer from 0 to 4 for the child
+Child:   2
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 1
+Enter an integer from 0 to 4 for the child
+Child:   4
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 2
+Enter an integer from 0 to 4 for the child
+Child:   3
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 3
+Enter an integer from 0 to 4 for the child
+Child:   0
+Enter an edge? (Y = yes, N = no) 
+You entered: n
+Constructor Ending, checking adjacency list: 
+Adjacency List for 0
+Adjacent to: 2
+Adjacent to: 1
+Adjacency List for 1
+Adjacent to: 4
+Adjacency List for 2
+Adjacent to: 3
+Adjacency List for 3
+Adjacent to: 0
+Adjacency List for 4
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 2...
+DFS_Visit visiting: 2
+DFS_Visit visiting: 3
+DFS_Visit visiting: 0
+DFS_Visit visiting: 1
+DFS_Visit visiting: 4
+Depth-First Search for 2 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 0...
+DFS_Visit visiting: 0
+DFS_Visit visiting: 2
+DFS_Visit visiting: 3
+DFS_Visit visiting: 1
+DFS_Visit visiting: 4
+Depth-First Search for 0 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 2
+
+Executing Topological Sort: 
+Topological Sort calling DFS...
+DFS_Visit visiting: 0
+DFS_Visit visiting: 2
+DFS_Visit visiting: 3
+DFS_Visit visiting: 1
+DFS_Visit visiting: 4
+Cycle detected, unable to topological sort.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 0...
+BFS Visiting: 0
+BFS Visiting: 2
+BFS Visiting: 1
+BFS Visiting: 3
+BFS Visiting: 4
+Breadth-First Search for 0 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 1...
+BFS Visiting: 1
+BFS Visiting: 4
+Breadth-First Search for 1 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 2...
+BFS Visiting: 2
+BFS Visiting: 3
+BFS Visiting: 0
+BFS Visiting: 1
+BFS Visiting: 4
+Breadth-First Search for 2 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 4
+
+Copying Graph...
+n = 5
+Executing DFS at 0 for Graph 2.
+DFS_Visit visiting: 0
+DFS_Visit visiting: 2
+DFS_Visit visiting: 3
+DFS_Visit visiting: 1
+DFS_Visit visiting: 4
+--- Running again ---
+ 
+
+Name: Adam Abad
+Graphs
+Uses an array of pointers to represent a graph and perform actions to it.
+
+How many nodes will be in the graph? 
+Allocating an array sized 5
+
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 0
+Enter an integer from 0 to 4 for the child
+Child:   1
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 0
+Enter an integer from 0 to 4 for the child
+Child:   2
+Enter an edge? (Y = yes, N = no) 
+You entered: n
+Constructor Ending, checking adjacency list: 
+Adjacency List for 0
+Adjacent to: 2
+Adjacent to: 1
+Adjacency List for 1
+Adjacency List for 2
+Adjacency List for 3
+Adjacency List for 4
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 0...
+DFS_Visit visiting: 0
+DFS_Visit visiting: 2
+DFS_Visit visiting: 1
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+Depth-First Search for 0 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 1...
+DFS_Visit visiting: 1
+DFS_Visit visiting: 2
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+DFS_Visit visiting: 0
+Depth-First Search for 1 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 2...
+DFS_Visit visiting: 2
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+DFS_Visit visiting: 0
+DFS_Visit visiting: 1
+Depth-First Search for 2 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 3...
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+DFS_Visit visiting: 0
+DFS_Visit visiting: 2
+DFS_Visit visiting: 1
+Depth-First Search for 3 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 4...
+DFS_Visit visiting: 4
+DFS_Visit visiting: 0
+DFS_Visit visiting: 2
+DFS_Visit visiting: 1
+DFS_Visit visiting: 3
+Depth-First Search for 4 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 2
+
+Executing Topological Sort: 
+Topological Sort calling DFS...
+DFS_Visit visiting: 0
+DFS_Visit visiting: 2
+DFS_Visit visiting: 1
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+
+Topological Sort Results: 
+next node is 4
+next node is 3
+next node is 0
+next node is 1
+next node is 2
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 0...
+BFS Visiting: 0
+BFS Visiting: 2
+BFS Visiting: 1
+Breadth-First Search for 0 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 1...
+BFS Visiting: 1
+Breadth-First Search for 1 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 2...
+BFS Visiting: 2
+Breadth-First Search for 2 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 3...
+BFS Visiting: 3
+Breadth-First Search for 3 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 4...
+BFS Visiting: 4
+Breadth-First Search for 4 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 4
+
+Copying Graph...
+n = 5
+Executing DFS at 0 for Graph 2.
+DFS_Visit visiting: 0
+DFS_Visit visiting: 2
+DFS_Visit visiting: 1
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+--- Running again ---
+ 
+
+Name: Adam Abad
+Graphs
+Uses an array of pointers to represent a graph and perform actions to it.
+
+How many nodes will be in the graph? 
+Allocating an array sized 5
+
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 0
+Enter an integer from 0 to 4 for the child
+Child:   1
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 0
+Enter an integer from 0 to 4 for the child
+Child:   3
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 1
+Enter an integer from 0 to 4 for the child
+Child:   2
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 3
+Enter an integer from 0 to 4 for the child
+Child:   2
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 4
+Enter an integer from 0 to 4 for the child
+Child:   3
+Enter an edge? (Y = yes, N = no) 
+You entered: n
+Constructor Ending, checking adjacency list: 
+Adjacency List for 0
+Adjacent to: 3
+Adjacent to: 1
+Adjacency List for 1
+Adjacent to: 2
+Adjacency List for 2
+Adjacency List for 3
+Adjacent to: 2
+Adjacency List for 4
+Adjacent to: 3
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 0...
+DFS_Visit visiting: 0
+DFS_Visit visiting: 3
+DFS_Visit visiting: 2
+DFS_Visit visiting: 1
+DFS_Visit visiting: 4
+Depth-First Search for 0 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 2
+
+Executing Topological Sort: 
+Topological Sort calling DFS...
+DFS_Visit visiting: 0
+DFS_Visit visiting: 3
+DFS_Visit visiting: 2
+DFS_Visit visiting: 1
+DFS_Visit visiting: 4
+
+Topological Sort Results: 
+next node is 4
+next node is 0
+next node is 1
+next node is 3
+next node is 2
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 3
+
+Executing Breadth-First Search: 
+Enter an item to start the BFS: 
+Starting BFS at 0...
+BFS Visiting: 0
+BFS Visiting: 3
+BFS Visiting: 1
+BFS Visiting: 2
+Breadth-First Search for 0 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 4
+
+Copying Graph...
+n = 5
+Executing DFS at 0 for Graph 2.
+DFS_Visit visiting: 0
+DFS_Visit visiting: 3
+DFS_Visit visiting: 2
+DFS_Visit visiting: 1
+DFS_Visit visiting: 4
+---Running again 5---
+ 
+
+Name: Adam Abad
+Graphs
+Uses an array of pointers to represent a graph and perform actions to it.
+
+How many nodes will be in the graph? 
+Allocating an array sized 3
+
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 2 for the parent
+Parent: 0
+Enter an integer from 0 to 2 for the child
+Child:   1
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 2 for the parent
+Parent: 1
+Enter an integer from 0 to 2 for the child
+Child:   2
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 2 for the parent
+Parent: 2
+Enter an integer from 0 to 2 for the child
+Child:   0
+Enter an edge? (Y = yes, N = no) 
+You entered: n
+Constructor Ending, checking adjacency list: 
+Adjacency List for 0
+Adjacent to: 1
+Adjacency List for 1
+Adjacent to: 2
+Adjacency List for 2
+Adjacent to: 0
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 1
+
+Executing Depth-First Search: 
+Enter an item to start the DFS: 
+Starting DFS at 0...
+DFS_Visit visiting: 0
+DFS_Visit visiting: 1
+DFS_Visit visiting: 2
+Depth-First Search for 0 was successful.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 2
+
+Executing Topological Sort: 
+Topological Sort calling DFS...
+DFS_Visit visiting: 0
+DFS_Visit visiting: 1
+DFS_Visit visiting: 2
+Cycle detected, unable to topological sort.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 4
+
+Copying Graph...
+n = 3
+Executing DFS at 0 for Graph 2.
+DFS_Visit visiting: 0
+DFS_Visit visiting: 1
+DFS_Visit visiting: 2
+---Running Again ---
+ 
+
+Name: Adam Abad
+Graphs
+Uses an array of pointers to represent a graph and perform actions to it.
+
+How many nodes will be in the graph? 
+Allocating an array sized 5
+
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 0
+Enter an integer from 0 to 4 for the child
+Child:   1
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 0
+Enter an integer from 0 to 4 for the child
+Child:   2
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 2
+Enter an integer from 0 to 4 for the child
+Child:   3
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 3
+Enter an integer from 0 to 4 for the child
+Child:   4
+Enter an edge? (Y = yes, N = no) 
+You entered: y
+Creating new edge.
+Enter an integer from 0 to 4 for the parent
+Parent: 4
+Enter an integer from 0 to 4 for the child
+Child:   2
+Enter an edge? (Y = yes, N = no) 
+You entered: n
+Constructor Ending, checking adjacency list: 
+Adjacency List for 0
+Adjacent to: 2
+Adjacent to: 1
+Adjacency List for 1
+Adjacency List for 2
+Adjacent to: 3
+Adjacency List for 3
+Adjacent to: 4
+Adjacency List for 4
+Adjacent to: 2
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 2
+
+Executing Topological Sort: 
+Topological Sort calling DFS...
+DFS_Visit visiting: 0
+DFS_Visit visiting: 2
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+DFS_Visit visiting: 1
+Cycle detected, unable to topological sort.
+
+1. Depth First Search.
+2. Topological Sort.
+3. Breadth-First Search.
+4. Exit.
+
+Please enter an Option: 
+You chose option 4
+
+Copying Graph...
+n = 5
+Executing DFS at 0 for Graph 2.
+DFS_Visit visiting: 0
+DFS_Visit visiting: 2
+DFS_Visit visiting: 3
+DFS_Visit visiting: 4
+DFS_Visit visiting: 1
+ 

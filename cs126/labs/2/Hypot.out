@@ -1,0 +1,31 @@
+Username:  abada
+Date:      Tue Jan 23 14:16:25 EST 2018
+ 
+*** Compiling ***
+--- Running 4 and 5 ---
+ 
+
+Given two right triangle leg lengths,
+this program computes the hypotenuse length.
+Written by Adam Abad.
+
+Enter the length of side 1: 
+Enter the length of side 2: 
+
+For a triangle with sides 4.0 and 5.0
+The hypotenuse is 6.403
+
+--- Running 10 and 20 ---
+ 
+
+Given two right triangle leg lengths,
+this program computes the hypotenuse length.
+Written by Adam Abad.
+
+Enter the length of side 1: 
+Enter the length of side 2: 
+
+For a triangle with sides 10.0 and 20.0
+The hypotenuse is 22.361
+
+ 

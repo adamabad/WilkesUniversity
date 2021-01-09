@@ -1,0 +1,30 @@
+Username:  abada
+Date:      Tue Feb 6 15:01:18 EST 2018
+ 
+*** compiling Metric ***
+--- Running ---
+
+Program to convert units.
+Written by Adam Abad.
+You will be asked to enter one number.
+
+Enter a number: 
+
+1.0 feet = 0.3048 meters
+1.0 square inches = 645.16 square millimeters
+1.0 square feet = 0.09290304 square meters
+1.0 acres = 4046.8599999999997 square meters
+
+--- Running again ---
+
+Program to convert units.
+Written by Adam Abad.
+You will be asked to enter one number.
+
+Enter a number: 
+
+3.3 feet = 1.00584 meters
+3.3 square inches = 2129.028 square millimeters
+3.3 square feet = 0.306580032 square meters
+3.3 acres = 13354.637999999997 square meters
+

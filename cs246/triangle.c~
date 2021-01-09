@@ -1,0 +1,54 @@
+// File: triangle.c
+// Date: March 13, 2018
+// Author: Adam Abad
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char * argv[]) {
+  if(argv[1] && argv[2]){
+    int type = atoi(argv[1]);
+    int n = atoi(argv[2]);
+    switch(type) {
+      case 1:
+	for(int x = 0; x < n; x++){
+	  for(int width = 0; width <= x; width++)
+	    printf("*");
+	  printf("\n");
+	}
+	break;
+	
+      case 2:
+	for(int x = 0; x < n; x++){
+	  for(int space = 1; space < (n - x); space++)
+	    printf(" ");
+	  for(int aster = 0; aster <= x; aster++)
+	    printf("*");
+	  printf("\n");
+       }
+       break;
+
+    case 3:
+      for(int x = n; x > 0; x--){
+	for(int width = 0; width < x; width++)
+	  printf("*");
+	printf("\n");
+      }
+      break;
+    case 4:
+      for(int x = n; x > 0; x--){
+	for(int space = 1; space <= (n - x); space++)
+	  printf(" ");
+	for(int aster = 0; aster < x; aster++)
+	  printf("*");
+	printf("\n");
+      }
+      break;
+
+    } 
+  }    
+  else{
+    fprintf(stderr,"Must have 2 command-line arguements\n");
+    exit(1);
+  }
+}

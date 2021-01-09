@@ -1,0 +1,148 @@
+// File: frequency.c
+// Date: April 17, 2018
+// Author: Adam Abad
+
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <errno.h>
+#include <ctype.h>
+
+#define SIZE_OF_ARRAY 10
+
+struct item {
+  char *word;
+  int count;
+};
+
+enum state {
+  IN_WORD, NOT_IN_WORD
+};
+
+enum list {
+  IN_LIST, NOT_IN_LIST
+};
+
+int compareCount(const void *word1, const void *word2) {
+  struct item *word1Comp = (struct item *) word1;
+  struct item *word2Comp = (struct item *) word2;
+  return word1Comp->count - word2Comp->count;
+}
+
+void shift(struct item *wholeList, char *word) {
+  int i = 0;
+  for(;i < SIZE_OF_ARRAY; i++) {    
+    if (strcmp(word,wholeList[i].word) < 0) {
+      for(int x = SIZE_OF_ARRAY - 2;x >= i; x--) {
+	if(wholeList[x].word != NULL) {
+	  wholeList[x + 1].word = wholeList[x].word;
+    	  wholeList[x + 1].count = wholeList[x].count;
+    	}
+      }
+      wholeList[i].word = word;
+      wholeList[i].count = 1;
+      return;
+    }
+  }
+}
+
+void search(struct item *wholeList, char *newWord) {
+
+  // https://stackoverflow.com/questions/12633768/qsort-dynamically-created-array-in-c
+  // Help in getting sizeof for qsort and bsearch  
+  //locate = (struct item *) bsearch(&key, wholeList, sizeof(wholeList) / sizeof(struct item), sizeof(struct item), compareWord);
+
+  enum state list = NOT_IN_LIST;
+  
+  for(int i = 0; i < SIZE_OF_ARRAY; i++) {
+    printf("%s %s\n", wholeList[i].word, newWord);
+    if(strcmp(wholeList[i].word, "") == 0) {
+      printf("NULL ");
+      break;
+    }
+    
+    else if(strcmp(wholeList[i].word, newWord) == 0) {
+      printf("IN LIST");
+      list = IN_LIST;
+      wholeList[i].count++;
+      break;
+    }
+  }
+  
+  if(list == NOT_IN_LIST) {
+    printf("Not in List ");
+    shift(wholeList,newWord);
+  }
+}
+
+void read(FILE *in, struct item *wholeList) {
+
+  int c;
+  enum state state = NOT_IN_WORD;
+  char *word = NULL;
+
+  while ((c = getc(in)) != EOF) {
+    switch (state) {
+    case IN_WORD:
+      if(isspace(c)) {
+	state = NOT_IN_WORD;
+	search(wholeList,word);
+	free(word);
+      }
+      else {
+	c = tolower(c);
+	if (isalpha(c)) {
+	strcat(word,(char *)&c);
+	}
+      }
+      break;
+    case NOT_IN_WORD:
+      if(!isspace(c)) {
+	word = malloc(sizeof(256));
+        c = tolower(c);
+	if (isalpha(c)) {
+	    strcat(word,(char *)&c);
+	}
+	state = IN_WORD;
+      }	  
+      break;
+    }
+  }
+}
+
+void printList(struct item *a) {
+  int i;
+  while(a[i].word) {
+    printf("%s  %d",a[i].word,a[i].count);
+    i++;
+  }
+}
+
+int main(int argc, char *argv[]) {
+
+  struct item *wholeList = calloc(SIZE_OF_ARRAY, sizeof(struct item));
+
+  for(int i; i < SIZE_OF_ARRAY;i++) {
+    wholeList[i].word = malloc(256 * sizeof(char));
+    wholeList[i].word = "";
+    wholeList[i].count = 0;
+  }
+  
+  if (argc == 1) {
+    read(stdin,wholeList);
+  }
+  else {
+    for (int i = 1; i < argc; i++) {
+      FILE *fin = fopen(argv[i], "r");
+      if (fin == NULL) {
+	fprintf(stderr, "%s: %s: %s\n", argv[0], argv[i], strerror(errno));
+      }
+      else {
+	read(fin,wholeList);
+	fclose(fin);
+	printList(wholeList);
+	free(wholeList);
+      }
+    }
+  }
+}

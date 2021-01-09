@@ -1,0 +1,80 @@
+//******************************************************************
+// File: huffman.cpp
+// Author: Adam Abad
+// Date: 4/22/2019
+// Program Name: Huffman Code
+//******************************************************************
+
+// ********************************************************
+// Implementation file huffman.cpp for the the Huffman Code.
+// ********************************************************
+
+#include "huffman.h"
+
+huffman::huffman(string fn) {
+	ifstream inFile;
+	inFile.open(fn.c_str());
+	assert(inFile.is_open());
+	cout<<"The file "<<fn<<endl;
+	int charArray[26];
+	char inData;
+	while(true) {
+		inFile>>inData;
+		if(!inFile.good()) {
+			inFile.clear();
+			inFile.ignore(120, '\n');
+		}
+		if(inFile.eof()) {
+			break;
+		}
+		charArray[inData - 'A']++;
+	}
+	inFile.close();
+	Heap pHeap;
+	for(int x = 0; x < 26; x++) {
+		cout<<"char = "<<char('A' + x)<<" count = "<<charArray[x]<<endl;
+		if(charArray[x] != 0) {
+			huffmannode *node = new huffmannode;
+			node->symbol = x + 'A';
+			node->frequency = charArray[x];
+			node->nodetype = 1;
+			node->left = NULL;
+			node->right = NULL;
+			pHeap.heapInsert(*node);
+		}
+	}
+	pHeap.heapDisplay();
+	cout<<"end initial heap display\n\n";
+	int num = pHeap.heapSize();
+	for(int i = 1; i < num; i++) {
+		huffmannode *left, *right;
+		pHeap.heapDelete(&left);
+		pHeap.heapDelete(&right);
+		huffmannode *node = new huffmannode;
+		node->left = left;
+		node->right = right;
+		node->frequency = left->frequency + right->frequency;
+		cout<<" for debug p->frequency = "<<left->frequency<<" and q->frequency = "<<right->frequency<<endl;
+		pHeap.heapInsert(*node);
+		cout<<"just inserted frequency = "<<node->frequency;
+	}
+}//end of function constructor
+
+huffman::~huffman() {
+
+//work in reverse to destroy
+//put everything back in the heap one level at a time and destroy each internal node
+
+cout<<"Destructor executing"<<endl;  
+}
+
+
+void huffman::inOrder(string s,huffmannode *t) {
+	
+}
+//list operations
+void huffman::displayCode() {
+	string s;
+	inOrder(s,finalhuffmantree);
+}
+  

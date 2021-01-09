@@ -1,0 +1,82 @@
+//******************************************************************
+// File: PQHeap.cpp
+// Author: Adam Abad
+// Date: 4/22/2019
+// Program Name: Huffman Code
+//******************************************************************
+
+// *********************************************************
+// Implementation file Heap.cpp for the ADT heap.
+// *********************************************************
+#include "PQHeap.h"  // header file for class Heap
+
+Heap::Heap() : size(0) {
+}  // end default constructor
+
+bool Heap::heapIsEmpty() const {
+   return true;
+}  // end heapIsEmpty
+
+// Method: Inserts the new item after the last item in the
+// heap and trickles it up to its proper position. The
+// heap is full when it contains MAX_HEAP items.
+
+void Heap::heapInsert(const huffmannode& newItem) {
+	if(size < MAX_HEAP) {
+		items[size] = newItem;
+		for(int x = size; x > 0; x--) {
+			huffmannode temp;
+			if(items[x].frequency < items[x-1].frequency) {
+				temp = items[x - 1];
+				items[x - 1] = items[x];
+				items[x] = temp;			
+			}
+		}
+		size++;
+	}
+	else {
+		throw "HeapException";
+	}
+}  // end heapInsert
+
+// Method: Swaps the last item in the heap with the root
+// and trickles it down to its proper position.
+
+void Heap::heapDelete(huffmannode& rootItem) {
+	if(size != 0) {
+		huffmannode temp;
+		temp = items[0];
+		items[0] = items[size - 1];
+		items[size - 1] = temp;
+		size--;
+		&rootItem = &temp;
+		for(int x = 0; x < size; x++) {
+			if(items[x].frequency > items[x+1].frequency) {
+				temp = items[x];
+				items[x] = items[x + 1];
+				items[x + 1] = temp;
+			}
+		}
+		cout<<"Trikle\n";
+	}
+	else {
+		throw "HeapException";
+	}
+}  // end heapDelete
+
+// method returns the size of the heap
+int Heap::heapSize() {
+	return size;
+}//end of function
+
+void Heap::heapRebuild(int root) {
+   
+}  // end heapRebuild
+
+void Heap::heapDisplay() {
+	for(int x = 0; x < size; x++) {
+		cout<<"Symbol = "<<items[x].symbol<<" frequency = "<<items[x].frequency<<endl;
+	}
+}//end heapDisplay
+
+// End of implementation file.

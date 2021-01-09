@@ -1,0 +1,35 @@
+Username:  abada
+Date:      Tue Feb 27 09:51:58 EST 2018
+ 
+************************
+* Compiling ./circle.c *
+************************
+**************************
+* Compilation succeeded! *
+**************************
+*****************************
+* Running echo 5 | ./circle *
+*****************************
+Enter the raidus of a circle: The circumference is: 31.415927 
+The area is: 78.539816 
+ ***************************
+* Run is finished.        *
+* Check your output!      *
+***************************
+Press enter to continue. 
+************************
+* Compiling ./circle.c *
+************************
+**************************
+* Compilation succeeded! *
+**************************
+*******************************
+* Running echo 3.5 | ./circle *
+*******************************
+Enter the raidus of a circle: The circumference is: 21.991149 
+The area is: 38.484510 
+ ***************************
+* Run is finished.        *
+* Check your output!      *
+***************************
+Press enter to continue. 

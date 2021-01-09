@@ -1,0 +1,78 @@
+Username:  abada
+Date:      Tue Mar 13 11:59:48 EDT 2018
+ 
+**********************
+* Compiling ./ftoc.c *
+**********************
+**************************
+* Compilation succeeded! *
+**************************
+******************************
+* Running echo 212 | ./ftoc  *
+******************************
+Enter a temperature in Fahrenheit: The temperature 212.0F, is 100.0C.
+***************************
+* Run is finished.        *
+* Check your output!      *
+***************************
+Press enter to continue. 
+**********************
+* Compiling ./ftoc.c *
+**********************
+**************************
+* Compilation succeeded! *
+**************************
+*****************************
+* Running echo 32 | ./ftoc  *
+*****************************
+Enter a temperature in Fahrenheit: The temperature 32.0F, is 0.0C.
+***************************
+* Run is finished.        *
+* Check your output!      *
+***************************
+Press enter to continue. 
+**********************
+* Compiling ./ftoc.c *
+**********************
+**************************
+* Compilation succeeded! *
+**************************
+******************************
+* Running echo 100 | ./ftoc  *
+******************************
+Enter a temperature in Fahrenheit: The temperature 100.0F, is 37.8C.
+***************************
+* Run is finished.        *
+* Check your output!      *
+***************************
+Press enter to continue. 
+**********************
+* Compiling ./ftoc.c *
+**********************
+**************************
+* Compilation succeeded! *
+**************************
+****************************
+* Running echo 0 | ./ftoc  *
+****************************
+Enter a temperature in Fahrenheit: The temperature 0.0F, is -17.8C.
+***************************
+* Run is finished.        *
+* Check your output!      *
+***************************
+Press enter to continue. 
+**********************
+* Compiling ./ftoc.c *
+**********************
+**************************
+* Compilation succeeded! *
+**************************
+*******************************
+* Running echo 98.6 | ./ftoc  *
+*******************************
+Enter a temperature in Fahrenheit: The temperature 98.6F, is 37.0C.
+***************************
+* Run is finished.        *
+* Check your output!      *
+***************************
+Press enter to continue. 

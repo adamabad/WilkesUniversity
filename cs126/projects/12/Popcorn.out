@@ -1,0 +1,40 @@
+Username:  abada
+Date:      Mon Apr 23 15:06:31 EDT 2018
+ 
+*** Running make ***
+javac *.java
+--- Running first data ---
+
+Program to produce a bar chart of popcorn production.
+Written by Adam Abad.
+
+                    Pop CoOp
+Farm name                     Production in
+                              Thousands of
+                              Pint Jars per Acre
+                                 1   2   3   4   5   6
+                              ---|---|---|---|---|---|---
+Orville's Acres               ***************    |
+Koch's Korn                   ****************** |
+Jiffy Quick Farm              ***********        |
+Jolly Good Plantation         *******************#**
+Organically Grown Inc.        ************       |
+
+--- Running second data ---
+
+Program to produce a bar chart of popcorn production.
+Written by Adam Abad.
+
+                    Pop CoOp
+Farm name                     Production in
+                              Thousands of
+                              Pint Jars per Acre
+                                 1   2   3   4   5   6
+                              ---|---|---|---|---|---|---
+Kinder Korn                   ***                |
+Juniper Farms                 *******************#*
+Big Long Name Farm of Northeas*                  |
+Baker's Acres                 *******************#***
+
+*** Running make clean ***
+rm -f *.class *~ *#

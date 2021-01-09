@@ -1,0 +1,679 @@
+Username:  abada
+Date:      Mon Mar 18 20:38:07 EDT 2019
+ 
+*** making assign62 ***
+make: 'assign62' is up to date.
+--- Running ---
+ 
+
+Name: Adam Abad
+Array Based Queue
+Uses a Dynamically allocated array to represent a queue.
+
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 5
+
+The queue is empty.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+Unable to remove an item.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+1 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 6
+
+Exiting...
+--- Running again ---
+ 
+
+Name: Adam Abad
+Array Based Queue
+Uses a Dynamically allocated array to represent a queue.
+
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 5
+
+The queue is empty.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+1 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 4
+
+Item 1: 1
+
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 3
+
+1 is at the front of the queue.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 5
+
+The queue is not empty.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+2 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+3 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+4 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+5 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+6 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+7 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+8 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+9 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+10 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+11 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+12 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 4
+
+Item 1: 12
+Item 2: 11
+Item 3: 10
+Item 4: 9
+Item 5: 8
+Item 6: 7
+Item 7: 6
+Item 8: 5
+Item 9: 4
+Item 10: 3
+Item 11: 2
+Item 12: 1
+
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+12 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 4
+
+Item 1: 11
+Item 2: 10
+Item 3: 9
+Item 4: 8
+Item 5: 7
+Item 6: 6
+Item 7: 5
+Item 8: 4
+Item 9: 3
+Item 10: 2
+Item 11: 1
+
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+13 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+14 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+15 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+16 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+17 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+18 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+19 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 4
+
+Item 1: 19
+Item 2: 18
+Item 3: 17
+Item 4: 16
+Item 5: 15
+Item 6: 14
+Item 7: 13
+Item 8: 11
+Item 9: 10
+Item 10: 9
+Item 11: 8
+Item 12: 7
+Item 13: 6
+Item 14: 5
+Item 15: 4
+Item 16: 3
+Item 17: 2
+Item 18: 1
+
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+19 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+18 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+17 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+16 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+15 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+14 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+13 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+11 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+10 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+9 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+8 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+7 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+6 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+5 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+4 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+3 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+2 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 4
+
+Item 1: 1
+
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+1 was removed.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 5
+
+The queue is empty.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter an integer to enqueue: 
+1 was successfully inserted.
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 4
+
+Item 1: 1
+
+1. Enqueue Data.
+2. Dequeue Data and Print.
+3. Print Front without Dequeue.
+4. Print Queue.
+5. Print Empty or Non Empty.
+6. Exit.
+
+Please enter your Option: 
+You chose option 6
+
+Exiting...
+ 

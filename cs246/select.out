@@ -1,0 +1,21 @@
+Username:  abada
+Date:      Tue Feb 13 09:21:53 EST 2018
+ 
+running ./select 1 5 < /homes/mathcs/courses/cs246/lines
+1 5
+Line 1
+Line 2
+Line 3
+Line 4
+Line 5
+running ./select 7 12 < /homes/mathcs/courses/cs246/lines
+7 12
+Line 7
+Line 8
+Line 9
+Line 10
+Line 11
+Line 12
+running ./select 5 5 < /homes/mathcs/courses/cs246/lines
+5 5
+Line 5

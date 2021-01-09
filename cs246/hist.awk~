@@ -1,0 +1,26 @@
+BEGIN{
+    numCount[0]
+    numSave[0]
+}
+(NR > 0) {
+    check = 0
+    total++;
+    for(i in numSave)
+	if($1 == numSave[i]){
+	    check = 1;
+	    numCount[i]++;
+	}
+    if (check == 0){
+	len = length(numSave);
+	numSave[len] = $1;
+	numCount[len] = 1;
+    }
+}
+END{   
+    for(i = 0; i <= length(numSave); i++)
+	if (numCount[i]!=0){
+	    asterNum = (numCount[i] / total) * 50);
+	    for(x = 0;
+	    printf "%0d: %8d %-0s\n",numSave[i],numCount[i],aster;
+	}
+}

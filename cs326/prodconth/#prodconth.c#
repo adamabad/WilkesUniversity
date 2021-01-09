@@ -1,0 +1,119 @@
+//HEADER
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+
+int data[10]; 										// 10 Integer Buffer
+int position = 0; 									// Position of the consumers
+int current = 1; 									// Current integer for the producers
+
+pthread_mutex_t lockit=PTHREAD_MUTEX_INITIALIZER;
+pthread_cond_t signalit=PTHREAD_COND_INITIALIZER;
+
+void producer(int threadNum) {
+	printf("I am a producer and my thread number is %i.\n", threadNum);
+	fflush(stdout);
+	while(1) {										// While loop for non-restrictive runs on each producer.
+	    pthread_mutex_lock(&lockit); 				// Lock the mutex to add data to the array
+        while(data[((current - 1)%10)] != 0) {
+            pthread_cond_wait(&signalit,&lockit);	// If the value at the current data slot is not consumed, 
+		}										  	//  wait till it is consumed.
+		if(current > 99) {							// If Current > 99, all the values have been produced, if not, produce the next value.
+			data[(current - 1)%10] = -1; 			// Sends -1 to kill the consumer after all the values have been produced.
+			current++; 								// Increments count to correct the producer that finishes last's -1 value placement.
+			pthread_cond_broadcast(&signalit); 		// Broadcasts the conditional variable to unlock it.
+			pthread_mutex_unlock(&lockit); 			// Unlock the mutex after sending -1
+	        break; 						       		// Break out of the while loop to exit.
+	    } 
+		else {
+			data[(current - 1 )%10] = current;		// Sets the next value into the buffer
+			printf("Thread: %i Produced: %i\n",threadNum,current);
+			current++;								// Increments the current value
+			pthread_cond_broadcast(&signalit);		// Broadcasts the conditional variable to unlock it.
+			pthread_mutex_unlock(&lockit); 			// Unlock the mutex after sending the produced number
+		}
+	}
+    printf("Producer %i exiting.\n", threadNum);
+	fflush(stdout);
+}
+
+void consumer(int threadNum) {
+	int i;
+	printf("I am a consumer and my thread number is %i.\n", threadNum);
+	fflush(stdout);
+	while(1) {										// While loop for non-restrictive runs on each consumer.
+		pthread_mutex_lock(&lockit);				// Lock the mutex to retrieve data from the array.
+		while(data[position%10] == 0) {
+			pthread_cond_wait(&signalit,&lockit);	// If the value in the current slot is 0, it has not been produced yet.
+		}											//  wait till the slot is filled to retrieve data.
+		i = data[position%10];						// Sets i to the value in the current position in the array.
+		data[position%10] = 0;					// Sets the current position in the array to 0 to signal that is has been consumed.
+		position++;									// Increments the position in the array for the next value.
+		if(i == -1) {								// -1 Signals the end of the producer and no more values, kills the consumer.
+			pthread_cond_broadcast(&signalit);		// Broadcasts the conditional variable to unlock it.
+			pthread_mutex_unlock(&lockit);			// Unlocks the mutex after receiving 1.
+			break;									// Break out of the while loop to exit.
+		}
+		else {										// i is a valid value, displays the consumption of it.
+			printf("Thread: %i Consumed: %i\n", threadNum, i);
+			fflush(stdout);
+			
+			pthread_cond_broadcast(&signalit);		// Broadcasts the conditional varibale to unlock it.
+			pthread_mutex_unlock(&lockit);			// Unlocks the mutex after the value is consumed.
+		}
+	}
+	printf("Consumer %i exiting.\n", threadNum);
+	fflush(stdout);
+}
+int main() {
+	void *statusp;
+	pthread_t *threads;
+	for(int x = 0; x < 10; x++) {					// Sets the array to 0 to assure no data in it.
+	    data[x] = 0;
+	}
+	if((threads=malloc(sizeof(pthread_t)*4)) == NULL) {
+		printf("Error Allocating thread\n");
+		exit(-1);
+	}												// Allocates the size of the threads needed.
+	if((pthread_create(&threads[0],NULL,(void *)producer,(void *)0)) != 0) {
+		printf("Error creating producer 1.\n");
+		exit(-1);
+	}												// Creates Producer 1
+	if((pthread_create(&threads[1],NULL,(void *)producer,(void *)1)) != 0) {
+		printf("Error creating producer 2.\n");
+		exit(-1);
+	}												// Creates Producer 2
+	if((pthread_create(&threads[2],NULL,(void *)consumer,(void *)2)) != 0) {
+		printf("Error creating consumer 1.\n");
+		exit(-1);
+	}												// Creates Consumer 1
+	if((pthread_create(&threads[3],NULL,(void *)consumer,(void *)3)) != 0) {
+		printf("Error creating consumer 2.\n");
+		exit(-1);
+	}												// Creates Consumer 2
+	if((pthread_join(threads[0],&statusp)) != 0) {
+		printf("Could not join producer 1.\n");
+		fflush(stdout);
+	}												// Wait for Producer 1 to finish
+	if((pthread_join(threads[1],&statusp)) != 0) {
+		printf("Could not join producer 2.\n");
+		fflush(stdout);
+	}												// Wait for Producer 2 to finish
+	if((pthread_join(threads[2],&statusp)) != 0) {
+		printf("Could not join consumer 1.\n");
+		fflush(stdout);
+	}												// Wait for Consumer 1 to finish
+	if((pthread_join(threads[3],&statusp)) != 0) {
+		printf("Could not join consumer 2.\n");
+		fflush(stdout);
+	}												// Wait for Consumer 2 to finish
+	if((pthread_mutex_destroy(&lockit)) != 0) {
+		printf("Could not destory the mutex.\n");
+		fflush(stdout);
+	}												// Returns the mutex by destroying it
+	if((pthread_cond_destroy(&signalit)) != 0) {
+		printf("Could not destroy the conditional variable.\n");
+		fflush(stdout);
+	}												// Returns the conditional variable by returning it
+}

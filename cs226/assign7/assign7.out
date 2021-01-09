@@ -1,0 +1,1210 @@
+Username:  abada
+Date:      Mon Mar 25 20:35:43 EDT 2019
+ 
+***making assign7 ***
+make: 'assign7' is up to date.
+--- Running ---
+ 
+
+Name: Adam Abad
+Binary Trees
+Uses an array to represent a Binary Tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+1 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+2 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+3 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+4 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+5 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+6 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+7 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 9
+
+The tree is full.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 7
+
+Height: 3
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+8 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 9
+
+The tree is not full.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 8
+
+There are 8 element(s) in the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 7
+
+Height: 4
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+9 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+10 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+11 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+12 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+13 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+14 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 9
+
+The tree is not full.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 8
+
+There are 14 element(s) in the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 7
+
+Height: 4
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 1
+
+Please enter a positive integer: 
+15 was added successfully.
+
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 9
+
+The tree is full.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 8
+
+There are 15 element(s) in the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 7
+
+Height: 4
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 3
+
+Please enter a level to display: 
+Level 1: 1
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 3
+
+Please enter a level to display: 
+Level 2: 2 3
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 3
+
+Please enter a level to display: 
+Level 3: 4 5 6 7
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 3
+
+Please enter a level to display: 
+Level 4: 8 9 10 11 12 13 14 15
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 3
+
+Please enter a level to display: 
+The tree does not have level 5.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 4
+
+In order traversal: 
+8 4 9 2 10 5 11 1 12 6 13 3 14 7 15 
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 5
+
+Pre order traversal: 
+1 2 4 8 9 5 10 11 3 6 12 13 7 14 15 
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 6
+
+Unable to get post order to work.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+15 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 4
+
+In order traversal: 
+8 4 9 2 10 5 11 1 12 6 13 3 14 7 
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 5
+
+Pre order traversal: 
+1 2 4 8 9 5 10 11 3 6 12 13 7 14 
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 6
+
+Unable to get post order to work.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 9
+
+The tree is not full.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 8
+
+There are 14 element(s) in the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 7
+
+Height: 4
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+14 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+13 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+12 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+11 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+10 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+9 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+8 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 9
+
+The tree is full.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 8
+
+There are 7 element(s) in the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 7
+
+Height: 3
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 3
+
+Please enter a level to display: 
+Level 1: 1
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 3
+
+Please enter a level to display: 
+Level 2: 2 3
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 3
+
+Please enter a level to display: 
+Level 3: 4 5 6 7
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 4
+
+In order traversal: 
+4 2 5 1 6 3 7 
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 5
+
+Pre order traversal: 
+1 2 4 5 3 6 7 
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 6
+
+Unable to get post order to work.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+7 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+6 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+5 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+4 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+3 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 3
+
+Please enter a level to display: 
+Level 1: 1
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 3
+
+Please enter a level to display: 
+Level 2: 2
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+2 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+1 was removed from the tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 2
+
+No item could be removed.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 4
+
+In order traversal: 
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 5
+
+Pre order traversal: 
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 6
+
+Unable to get post order to work.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You chose option 10
+
+--- invalid inputRunning again ---
+ 
+
+Name: Adam Abad
+Binary Trees
+Uses an array to represent a Binary Tree.
+
+1.  Add an element.
+2.  Delete an element.
+3.  Display level i of the tree.
+4.  Inorder Traversal.
+5.  Preorder Traversal.
+6.  Postorder Traversal.
+7.  Height of the tree.
+8.  Number of Elements in the tree.
+9.  Is tree full?
+10. Exit.
+
+Please enter your Option: 
+You have entered invalid input, please reenter option.
+Please enter your Option: 
+You chose option 10
+
+ 

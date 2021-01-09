@@ -1,0 +1,7 @@
+Username:  abada
+Date:      Mon Nov 9 17:59:17 EST 2020
+ 
+*** Compiling lab1a.cpp ***
+g++: error: nSort.cpp: No such file or directory
+g++: fatal error: no input files
+compilation terminated.

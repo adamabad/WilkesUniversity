@@ -1,0 +1,70 @@
+Username:  abada
+Date:      Mon Nov 25 15:54:59 EST 2019
+ 
+*** compiling ***
+--- running ---
+ 
+parent signalling child 
+parent waiting for child to terminate
+child  1 has control  15270
+signal 1 received by signal handler 15270 child  
+child 1 terminating after signal  15270
+child  0 has control  15269
+signal 1 received by signal handler 15269 child  
+child 0 terminating after signal  15269
+parent terminating 
+--- Running again ---
+ 
+parent signalling child 
+parent waiting for child to terminate
+child  0 has control  15272
+child  1 has control  15273
+signal 1 received by signal handler 15273 child  
+signal 1 received by signal handler 15272 child  
+child 1 terminating after signal  15273
+child 0 terminating after signal  15272
+parent terminating 
+--- Running again ---
+ 
+parent signalling child 
+parent waiting for child to terminate
+child  0 has control  15275
+child  1 has control  15276
+signal 1 received by signal handler 15276 child  
+signal 1 received by signal handler 15275 child  
+child 1 terminating after signal  15276
+child 0 terminating after signal  15275
+parent terminating 
+--- Running again ---
+ 
+parent signalling child 
+parent waiting for child to terminate
+child  0 has control  15278
+child  1 has control  15279
+signal 1 received by signal handler 15279 child  
+signal 1 received by signal handler 15278 child  
+child 1 terminating after signal  15279
+child 0 terminating after signal  15278
+parent terminating 
+--- Running again ---
+ 
+parent signalling child 
+parent waiting for child to terminate
+child  0 has control  15281
+child  1 has control  15282
+signal 1 received by signal handler 15282 child  
+signal 1 received by signal handler 15281 child  
+child 1 terminating after signal  15282
+child 0 terminating after signal  15281
+parent terminating 
+--- Running again ---
+ 
+parent signalling child 
+parent waiting for child to terminate
+child  0 has control  15284
+child  1 has control  15285
+signal 1 received by signal handler 15285 child  
+signal 1 received by signal handler 15284 child  
+child 0 terminating after signal  15284
+child 1 terminating after signal  15285
+parent terminating 

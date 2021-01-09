@@ -1,0 +1,159 @@
+Username:  abada
+Date:      Mon Oct 26 17:19:35 EDT 2020
+ 
+*** compiling ***
+--- Running 1---
+ 
+Name: Adam Abad
+Analysis of the Sum of Subsets Algorithm
+P224 Algorithm 5.4
+
+Enter the name of the file: 
+Opening: /home/mathcs/turnin/bracken/ssinput1.test
+
+n = 6 elements in the array.
+W = 52 sum of elements to be searched
+
+The array: 
+2
+10
+13
+17
+22
+42
+
+Calling sum_of_subsets
+
+Solution found for W = 52
+2 no
+10 yes
+13 no
+17 no
+22 no
+42 yes
+
+Solution found for W = 52
+2 no
+10 no
+13 yes
+17 yes
+22 yes
+
+Number of promising calculations: 59
+--- Running again 2---
+ 
+Name: Adam Abad
+Analysis of the Sum of Subsets Algorithm
+P224 Algorithm 5.4
+
+Enter the name of the file: 
+Opening: /home/mathcs/turnin/bracken/ssinput2.test
+
+n = 8 elements in the array.
+W = 75 sum of elements to be searched
+
+The array: 
+1
+1
+1
+1
+1
+1
+1
+1
+
+Calling sum_of_subsets
+
+Number of promising calculations: 1
+--- Running again 3---
+ 
+Name: Adam Abad
+Analysis of the Sum of Subsets Algorithm
+P224 Algorithm 5.4
+
+Enter the name of the file: 
+Opening: /home/mathcs/turnin/bracken/ssinput3.test
+
+n = 5 elements in the array.
+W = 21 sum of elements to be searched
+
+The array: 
+5
+6
+10
+11
+16
+
+Calling sum_of_subsets
+
+Solution found for W = 21
+5 yes
+6 yes
+10 yes
+
+Solution found for W = 21
+5 yes
+6 no
+10 no
+11 no
+16 yes
+
+Solution found for W = 21
+5 no
+6 no
+10 yes
+11 yes
+
+Number of promising calculations: 25
+--- Running again 4---
+ 
+Name: Adam Abad
+Analysis of the Sum of Subsets Algorithm
+P224 Algorithm 5.4
+
+Enter the name of the file: 
+Opening: /home/mathcs/turnin/bracken/ssinput4.test
+
+n = 3 elements in the array.
+W = 6 sum of elements to be searched
+
+The array: 
+2
+4
+5
+
+Calling sum_of_subsets
+
+Solution found for W = 6
+2 yes
+4 yes
+
+Number of promising calculations: 7
+--- Running again 5---
+ 
+Name: Adam Abad
+Analysis of the Sum of Subsets Algorithm
+P224 Algorithm 5.4
+
+Enter the name of the file: 
+Opening: /home/mathcs/turnin/bracken/ssinput5.test
+
+n = 4 elements in the array.
+W = 13 sum of elements to be searched
+
+The array: 
+3
+4
+5
+6
+
+Calling sum_of_subsets
+
+Solution found for W = 13
+3 yes
+4 yes
+5 no
+6 yes
+
+Number of promising calculations: 15
+ 

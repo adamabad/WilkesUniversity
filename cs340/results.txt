@@ -1,0 +1,31 @@
+File: results.txt
+Date: Dec. 4, 2019
+Author: Adam Abad
+Purpose: Results of Project 4, Image Classification
+
+First Run:  16-8-2
+Results:
+[59.  60.5 59.  54.  55.  58.  48.  61.  56.  65. ]
+Accuracy = 57.55 +/- 4.395736570814952
+
+Second Run: 24-24-8
+Results:
+[84.  75.5 52.  84.  81.  58.5 87.  80.  56.  82. ]
+Accuracy = 74.0 +/- 12.523977004130915
+
+Procedure:
+
+  Given the working neural classifier, the paramaters for the layers where
+changed to match the required set. Each layer works by training on the set
+and evaluating the results using the hidden layers of nodes.
+
+  Based on my results, 16-8-2 provided much lower yields than the 24-24-8
+run. This is likely because the amount of nodes used was too small to handle
+the images. The second trial yielded a much higher average as well as a
+higher range of results. Some of the results in trial 2 were lower than all
+the results from trial one indicating that this node arrangement has a higher
+varriance depending on the training set. Regardless, the classifier was able
+to identify on average, much more on the second set with a max of 87% correct.
+
+  The node arrangement may be streamlined in future trials as having 24 for the
+second layer may have been involved in the large variance in the results.

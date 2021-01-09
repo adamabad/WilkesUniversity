@@ -1,0 +1,290 @@
+Username:  abada
+Date:      Thu Sep 19 11:03:27 EDT 2019
+ 
+*** compiling ***
+--- running ---
+ 
+
+Name: Adam Abad
+Fork, Processes, and Pipes
+Uses two pipes to communicate between a parent and child.
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+Name: Adam Abad
+Fork, Processes, and Pipes
+Uses two pipes to communicate between a parent and child.
+
+
+You entered +
+Enter an Integer: 
+You entered 2
+Enter an Integer: 
+You entered 2
+2 + 2 = 4
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered +
+Enter an Integer: 
+You entered 500
+Enter an Integer: 
+You entered 750
+500 + 750 = 1250
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered -
+Enter an Integer: 
+You entered 5
+Enter an Integer: 
+You entered 7
+5 - 7 = -2
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered -
+Enter an Integer: 
+You entered 750
+Enter an Integer: 
+You entered 50
+750 - 50 = 700
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered *
+Enter an Integer: 
+You entered 2
+Enter an Integer: 
+You entered 2
+2 * 2 = 4
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered *
+Enter an Integer: 
+You entered 9
+Enter an Integer: 
+You entered 9
+9 * 9 = 81
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered /
+Enter an Integer: 
+You entered 4
+Enter an Integer: 
+You entered 2
+4 / 2 = 2
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered /
+Enter an Integer: 
+You entered 8
+Enter an Integer: 
+You entered 4
+8 / 4 = 2
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered /
+Enter an Integer: 
+You entered 9
+Enter an Integer: 
+You entered 2
+9 / 2 = 4
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered /
+Enter an Integer: 
+You entered 500
+Enter an Integer: 
+You entered 500
+500 / 500 = 1
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered +
+Enter an Integer: 
+You entered 1
+Enter an Integer: 
+You entered 1
+1 + 1 = 2
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered -
+Enter an Integer: 
+You entered 1
+Enter an Integer: 
+You entered 1
+1 - 1 = 0
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered *
+Enter an Integer: 
+You entered 1
+Enter an Integer: 
+You entered 1
+1 * 1 = 1
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered /
+Enter an Integer: 
+You entered 1
+Enter an Integer: 
+You entered 1
+1 / 1 = 1
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered X
+X entered, exiting program.
+--- Running again with invalid input---
+ 
+
+Name: Adam Abad
+Fork, Processes, and Pipes
+Uses two pipes to communicate between a parent and child.
+
+
+Name: Adam Abad
+Fork, Processes, and Pipes
+Uses two pipes to communicate between a parent and child.
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered ?
+Invalid symbol, enter again.
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered +
+Enter an Integer: 
+You entered 5
+Enter an Integer: 
+You entered 6
+5 + 6 = 11
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered -
+Enter an Integer: 
+You have entered invalid input, please reenter integer.
+Enter an Integer: 
+You entered 4
+Enter an Integer: 
+You entered 4
+4 - 4 = 0
+
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered 2
+Invalid symbol, enter again.
++ For addition
+- For subtraction
+* For multiplication
+/ For division
+X To Exit
+
+Enter a Symbol: 
+You entered X
+X entered, exiting program.

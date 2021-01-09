@@ -1,0 +1,12 @@
+import numpy as np
+import pandas as pd
+from sklearn.naive_bayes import GaussianNB
+
+clf = GaussianNB()
+
+#print("Enter the path of the data file: ")
+#filename = input()
+infile = open("train.txt", "r")
+
+trainarray = []
+count = 0

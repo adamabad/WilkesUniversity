@@ -1,0 +1,400 @@
+//******************************************************************
+// File: sort.cpp
+// Author: Adam Abad
+// Date: 11/9/20
+// Program Name: Comparison of Heapsort and Mergesort
+//      (Extra Credit): Insertion Sort, Selection Sort, Exchange Sort
+// I have tested and commented the program to describe actions that are
+//      being considered for assignments and operations
+//******************************************************************
+
+#include <iostream>
+#include <cassert>
+#include <string>
+#include <sys/time.h>
+#include <fstream>
+
+
+// Toggle print statements 
+// If PRINT = true, will output the sorted arrays with data after each run
+// If PRINT = false, will output only the runtime and complexity at the end
+#define PRINT true
+
+#define SIZE_OF_INPUT 256
+
+//Used for floor() 
+#include <cmath>
+using namespace std;
+
+// Global variable declarations for the counting of algorithms
+int heapOperations = 0;
+int heapAssignments = 0;
+int mergeOperations = 0;
+int mergeAssignments = 0;
+
+// Global variabl declarations for the extra credit algorithms
+int selectionOperations = 0;
+int selectionAssignments = 0;
+int insertionOperations = 0;
+int insertionAssignments = 0;
+int exchangeOperations = 0;
+int exchangeAssignments = 0;
+
+// Header function, prints name and program title
+void header() {
+    cout<<"Name: Adam Abad\n";
+    cout<<"Analysis of Various Sorting Algorithms\n\n";
+}
+
+
+
+//Part of heapsort algorithm, pushes lower values down the heap
+void siftdown(int *H, int n , int i) {
+    int parent, largerchild, siftkey;
+    bool spotfound;
+
+    siftkey = H[i];
+    parent = i;
+    spotfound = false;
+    heapAssignments = heapAssignments + 3;   //siftkey = H[i], parent = i, spotfound = false
+    while(2 * parent <= n && !spotfound) {
+        if(2 * parent < n && H[2 * parent] < H[2 * parent + 1]) {
+            largerchild = 2 * parent + 1;
+        }
+        else {
+            largerchild = 2 * parent;
+        }
+        heapAssignments++;                   //+1 for either outcome in the if statement
+        if(siftkey < H[largerchild]) {
+            H[parent] = H[largerchild];
+            parent = largerchild;
+            heapOperations++;                // parent = largerchild
+        }
+        else {
+            spotfound = true;
+        }
+        heapAssignments++;                   //+1 for either outcome in the if statement
+        heapOperations = heapOperations + 2; //+1 for each if in while loop
+    }
+    H[parent] = siftkey;
+    heapAssignments++; //H[parent] = siftkey
+}
+
+//Part of heapsort algorithm
+// returns the topmost value in the heap
+// swaps the top value with the last value and rebuilds the heap
+int root(int* H, int n) {
+    int keyout;
+    keyout = H[1];                  
+    H[1] = H[n];
+    heapAssignments = heapAssignments + 2; //+2 to count keyout = H[1] and H[1] = H[n]
+    siftdown(H, n, 1);
+    return keyout;
+}
+
+//Part of heapsort algorithm
+void removekeys(int n, int* H, int* outputArray) {
+    int size = n;                       //Part of struct removal, not counted to match the books opperations.
+    for(int i = n; i >= 1; i--) {
+        heapAssignments++;              //outputArray[i] = root(H, size);
+        outputArray[i] = root(H, size);
+        size--;                         //Part of struct removal, not counted to match the books opperations.
+    }
+}
+
+//Part of heapsort algorithm
+// calls siftdown based on the floor(n/2) to build the heap
+void makeheap(int n, int *H) {
+    for(int i = floor(n/2); i >= 1; i--) {
+        siftdown(H, n, i);
+    }
+}
+
+// Implementation of Heapsort
+// Foundations of Algorithms p310, Alg. 7.5
+// Modifications by Adam Abad to remove the need for a heap struct
+void heapsort(int *H, int n, int *outputArray) {
+    makeheap(n, H);
+    removekeys(n, H, outputArray);
+}
+
+// Alg 2.3
+void merge(int h, int m, int *U, int *V, int *mergeArray) {
+    int i, j, k;
+    i = j = k = 1;
+    mergeOperations = mergeOperations+ 3; //i = 1, j = 1, k = 1
+    while(i <= h && j <= m) {
+        if(U[i] < V[j]) {
+            mergeArray[k] = U[i];
+            i++;
+        }
+        else {
+            mergeArray[k] = V[j];
+            j++;
+        }
+        k++;
+        mergeOperations++;              //single if in while
+        mergeAssignments = mergeAssignments + 3;  //2 in each if clause, k++
+    }
+
+    
+    if(i > h) {
+        for(int x = j; x <= m; x++) {
+            mergeArray[k + x - j] = V[x];
+            mergeAssignments++;         //mergeArray[k + x - j] = V[x]
+        }
+    }
+    else {
+        for(int x = i; x <= m; x++) {
+            mergeArray[k + x - i] = U[x];
+            mergeAssignments++;         //mergeArray[k + x - j] = U[x]
+        }
+    }
+    mergeOperations++;                  //single if statement
+}
+
+// Implementation of Mergesort
+// Foundations of Algorithms p59, Alg. 2.2, 2.3
+void mergesort(int *mergeArray, int count) {
+    if(count > 1) {
+        const int h = floor(count / 2);
+        const int m = count - h;
+        mergeAssignments = mergeAssignments + 2; //assignments of h and m
+        int U[h];
+        int V[m];
+        for(int x = 1; x <= h; x++) {
+            U[x] = mergeArray[x];
+            mergeAssignments++;                 //U[x] = mergeArray[x]
+        }
+        for(int x = h + 1; x <= count; x++) {
+            V[x - h] = mergeArray[x];           
+            mergeAssignments++;                 //V[x - h] = mergeArray[x]
+        }
+        mergesort(U, h);
+        mergesort(V, m);
+        merge(h, m, U, V, mergeArray);
+    }
+}
+
+// Implementation of Selection Sort
+// Foundations of Algorithms p292, Alg. 7.2
+void selectionSort(int *selectionArray, int count) {
+    int smallest, temp, i, j;
+    for(i = 0; i < count - 1; i++) {
+        smallest = i;
+        selectionAssignments++;             //smallest = i
+        for(j = i + 1; j < count; j++) {
+            
+            if(selectionArray[j] < selectionArray[smallest]) {
+                smallest = j;
+                selectionAssignments++;     //smallest = j
+            }
+            selectionOperations++;          //if statement
+        }
+        temp = selectionArray[i];
+        selectionArray[i] = selectionArray[smallest];
+        selectionArray[smallest] = temp;
+        selectionAssignments = selectionAssignments + 3; //3 Assignments needed to exchange elements
+    }
+}
+
+// Implementation of Inseration Sort
+// Foundations of Algorithms p289, Alg 7.1
+// Values Modified for array starting at 0
+void insertionSort(int *inserationArray, int count) {
+    int i, j, x;
+    for(i = 1; i < count; i++) {
+        
+        x = inserationArray[i];
+        insertionAssignments++;             //x = inserationArray[i]
+        
+        j = i - 1;
+        insertionOperations++;              //j = i - 1
+        
+        while(j > -1 && inserationArray[j] > x) {
+            insertionOperations++;          //While conditional
+            
+            inserationArray[j + 1] = inserationArray[j];
+            insertionAssignments++;         //insertionArray[j + 1] = inserationArray[j]
+            
+            j--;
+            insertionOperations++;          //j++
+        }
+        inserationArray[j + 1] = x;
+        insertionAssignments++;             //inserationArray[j + 1] = x
+    }
+}
+
+// Implementation of Exchange Sort
+// Foundations of Algorithms p8, Alg 1.3
+void exchangeSort(int *exchangeArray, int count) {
+    int i, j, temp;
+    for(i = 0; i < count; i++) {
+        for(j = i + 1; j < count; j++) {
+            if(exchangeArray[j] < exchangeArray[i]) {
+                temp = exchangeArray[j];
+                exchangeArray[j] = exchangeArray[i];
+                exchangeArray[i] = temp;
+                exchangeAssignments = exchangeAssignments + 3; //3 Assignments needed to exchange elements
+            }
+            exchangeOperations++;           //if statement
+        }
+    }
+}
+
+
+// Main function
+int main() {
+    //Print the header
+    header();
+
+    //Array declarations
+    int heapArray[501]; // Algorithm requires 1..n
+    int heapOut[501];   // Algorithm requires 1..n
+    int mergeArray[501]; // Algorithm requires 1..n
+    int selectionArray[500];
+    int insertionArray[500];
+    int exchangeArray[500];
+
+    //Retrieves the name and opens the file
+    string fn;
+    ifstream myfile;
+    int data;
+    int count = 0;
+    cout<<"Enter the name of the file: \n";
+    cin>>fn;
+    cout<<"Opening: "<<fn<<endl;
+    myfile.open(fn.c_str());
+    //Assert to check if the file opened successfully
+    assert(myfile.is_open());
+
+    //Retrieve data from file up to SIZE_OF_INPUT elements.
+    while(true && count < SIZE_OF_INPUT) {
+        myfile>>data;
+        if(myfile.eof()) {
+            break;
+        }
+        heapArray[count + 1] = data;
+        mergeArray[count + 1] = data;
+        selectionArray[count] = data;
+        insertionArray[count] = data;
+        exchangeArray[count] = data;
+        count++;            //Truncates the elements in the file to 500
+    }
+    myfile.close();     //Close file after reading data
+
+    // Print the unsorted dataset
+    if(PRINT) {
+        for(int x = 0; x < count; x++) {
+            cout<<exchangeArray[x]<<endl;
+        }
+    }
+    cout<<"\nHeapsort Sorting...\n";
+    // HEAPSORT
+    struct timespec heapStart, heapEnd;
+    clock_gettime(CLOCK_REALTIME, &heapStart);
+    heapsort(heapArray, count, heapOut);
+    clock_gettime(CLOCK_REALTIME, &heapEnd);
+    
+    if(PRINT) {
+        for(int x = 1; x < count + 1; x++) {
+            cout<<heapOut[x]<<endl;
+        }
+        cout<<"\nHeapSort Data: \n";
+        cout<<"Beginning Time: "<<heapStart.tv_sec<<"s, "<<heapStart.tv_nsec<<"ns \n";
+        cout<<"Ending Time: "<<heapEnd.tv_sec<<"s, "<<heapEnd.tv_nsec<<"ns \n";
+        cout<<"Runtime: "<<heapEnd.tv_sec - heapStart.tv_sec<<"s, "<<heapEnd.tv_nsec - heapStart.tv_nsec<<"ns \n\n";
+        cout<<"n = "<<count<<endl;
+        cout<<"Operations = "<<heapOperations<<endl;
+        cout<<"Assignments = "<<heapAssignments<<endl;
+    }
+
+    cout<<"\nMergesor Sorting...\n";
+    // MERGESORT
+    struct timespec mergeStart, mergeEnd;
+    clock_gettime(CLOCK_REALTIME, &mergeStart);
+    mergesort(mergeArray, count);
+    clock_gettime(CLOCK_REALTIME, &mergeEnd);
+    
+    if(PRINT) {
+        for(int x = 1; x < count + 1; x++) {
+            cout<<mergeArray[x]<<endl;
+        }
+        cout<<"\nMergesort Data: \n";
+        cout<<"Beginning Time: "<<mergeStart.tv_sec<<"s, "<<mergeStart.tv_nsec<<"ns \n";
+        cout<<"Ending Time: "<<mergeEnd.tv_sec<<"s, "<<mergeEnd.tv_nsec<<"ns \n";
+        cout<<"Runtime: "<<mergeEnd.tv_sec - mergeStart.tv_sec<<"s, "<<mergeEnd.tv_nsec - mergeStart.tv_nsec<<"ns \n\n";
+        cout<<"n = "<<count<<endl;
+        cout<<"Operations = "<<mergeOperations<<endl;
+        cout<<"Assignments = "<<mergeAssignments<<endl;
+    }
+
+    cout<<"\nSelection Sort Sorting...\n";
+    // SELECTION SORT
+    struct timespec selectionStart, selectionEnd;
+    clock_gettime(CLOCK_REALTIME, &selectionStart);
+    selectionSort(selectionArray, count);
+    clock_gettime(CLOCK_REALTIME, &selectionEnd);
+    
+    if(PRINT) {
+        for(int x = 0; x < count; x++) {
+            cout<<selectionArray[x]<<endl;
+        }
+        cout<<"\nSelection Sort Data: \n";
+        cout<<"Beginning Time: "<<selectionStart.tv_sec<<"s, "<<selectionStart.tv_nsec<<"ns \n";
+        cout<<"Ending Time: "<<selectionEnd.tv_sec<<"s, "<<selectionEnd.tv_nsec<<"ns \n";
+        cout<<"Runtime: "<<selectionEnd.tv_sec - selectionStart.tv_sec<<"s, "<<selectionEnd.tv_nsec - selectionStart.tv_nsec<<"ns \n\n";
+        cout<<"n = "<<count<<endl;
+        cout<<"Operations = "<<selectionOperations<<endl;
+        cout<<"Assignments = "<<selectionAssignments<<endl;
+    }
+
+    cout<<"\nInsertion Sort Sorting...\n";
+    // INSERTION SORT
+    struct timespec insertStart, insertEnd;
+    clock_gettime(CLOCK_REALTIME, &insertStart);
+    insertionSort(insertionArray, count);
+    clock_gettime(CLOCK_REALTIME, &insertEnd);
+    
+    if(PRINT) {
+        for(int x = 0; x < count; x++) {
+            cout<<insertionArray[x]<<endl;
+        }
+        cout<<"\nInsertion Sort Data: \n";
+        cout<<"Beginning Time: "<<insertStart.tv_sec<<"s, "<<insertStart.tv_nsec<<"ns \n";
+        cout<<"Ending Time: "<<insertEnd.tv_sec<<"s, "<<insertEnd.tv_nsec<<"ns \n";
+        cout<<"Runtime: "<<insertEnd.tv_sec - insertStart.tv_sec<<"s, "<<insertEnd.tv_nsec - insertStart.tv_nsec<<"ns \n\n";
+        cout<<"n = "<<count<<endl;
+        cout<<"Operations = "<<insertionOperations<<endl;
+        cout<<"Assignments = "<<insertionAssignments<<endl;
+    }
+
+    cout<<"\nExchange Sort Sorting...\n";
+    // Exchange SORT
+    struct timespec exchangeStart, exchangeEnd;
+    clock_gettime(CLOCK_REALTIME, &exchangeStart);
+    exchangeSort(exchangeArray, count);
+    clock_gettime(CLOCK_REALTIME, &exchangeEnd);
+
+    if(PRINT) {
+        for(int x = 0; x < count; x++) {
+            cout<<exchangeArray[x]<<endl;
+        }
+        cout<<"\nExchange Sort Data: \n";
+        cout<<"Beginning Time: "<<exchangeStart.tv_sec<<"s, "<<exchangeStart.tv_nsec<<"ns \n";
+        cout<<"Ending Time: "<<exchangeEnd.tv_sec<<"s, "<<exchangeEnd.tv_nsec<<"ns \n";
+        cout<<"Runtime: "<<exchangeEnd.tv_sec - exchangeStart.tv_sec<<"s, "<<exchangeEnd.tv_nsec - exchangeStart.tv_nsec<<"ns \n\n";
+        cout<<"n = "<<count<<endl;
+        cout<<"Operations = "<<exchangeOperations<<endl;
+        cout<<"Assignments = "<<exchangeAssignments<<endl;
+    }
+    else {
+        cout<<"Algorithm        Runtime     Operations      Assignments\n";
+        cout<<"Heapsort         "<<heapEnd.tv_sec - heapStart.tv_sec<<"s, "<<heapEnd.tv_nsec - heapStart.tv_nsec<<"ns   "<<heapOperations<<"    "<<heapAssignments<<"   n = "<<count<<endl;
+        cout<<"Mergesort        "<<mergeEnd.tv_sec - mergeStart.tv_sec<<"s, "<<mergeEnd.tv_nsec - mergeStart.tv_nsec<<"ns   "<<mergeOperations<<"    "<<mergeAssignments<<endl;
+        cout<<"Selection Sort   "<<selectionEnd.tv_sec - selectionStart.tv_sec<<"s, "<<selectionEnd.tv_nsec - selectionStart.tv_nsec<<"ns   "<<selectionOperations<<"     "<<selectionAssignments<<endl;
+        cout<<"Insertion Sort   "<<insertEnd.tv_sec - insertStart.tv_sec<<"s, "<<insertEnd.tv_nsec - insertStart.tv_nsec<<"ns   "<<insertionOperations<<"     "<<insertionAssignments<<endl;
+        cout<<"Exchange Sort    "<<exchangeEnd.tv_sec - exchangeStart.tv_sec<<"s, "<<exchangeEnd.tv_nsec - exchangeStart.tv_nsec<<"ns   "<<exchangeOperations<<"     "<<exchangeAssignments<<endl;
+    }
+    return 0;
+}

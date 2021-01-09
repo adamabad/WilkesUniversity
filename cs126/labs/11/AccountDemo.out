@@ -1,0 +1,38 @@
+Username:  abada
+Date:      Tue Apr 3 14:31:55 EDT 2018
+ 
+*** Compiling ***
+javac *.java
+--- Running AccountDemo ---
+
+Welcome to the Account package demonstrator!
+
+
+Creating a Regular Account: 
+Account status is: The green hornet has balance 50.0
+The account is owned by The green hornet
+Depositing 100.00 
+
+Account status is: The green hornet has balance 150.0
+Withdrawing 90.00 
+
+Account status is: The green hornet has balance 60.0
+
+Creating a Checking Account: 
+Account status is: The lone ranger has balance 200.0
+
+Doing a monthly update: 
+Account status is: The lone ranger has balance 191.16666666666666
+Depositing 10.00 
+
+Account status is: The lone ranger has balance 201.16666666666666
+Depositing 20.00 
+
+Account status is: The lone ranger has balance 221.16666666666666
+Withdrawing 10.00 
+
+Account status is: The lone ranger has balance 211.16666666666666
+
+Doing a second monthly update: 
+Account status is: The lone ranger has balance 202.0984722222222
+rm -f *.class *~ *#
