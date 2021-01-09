@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>About</title>
+  </head>
+  <body>
+    <p>
+      <h1><a href="..">Adam Abad</a></h1>
+    </p>
+    <h1>About</h1>
+    <a href=".."> Home</a> | About |
+    <a href="../links"> Links</a> | 
+    <a href="../projects"> Projects</a> | 
+    <a href="../research"> Research</a> 
+    <p></p>
+    Hello and welcome to my about page! My name is <b>Adam Abad</b> and I currently go to <i>Wilkes University</i> where I am pursuing a major in Computer Science with a minor in Mathematics. I am a graduate of <i>Holy Redeemer Highschool</i>. I have a large interest in game design and game theory. Along with college, I work part time as a delivery driver at La Napolis in Mountain Top, PA. I also have several hobbies including Gunpla (Gundam plastic model kits) and collecting figures.
+    <p>Below are 5 websites that I frequently visit: </p>
+    <p>
+      <img src="../images/youtube.png" height="100" width="150" alt="Youtube: "/>
+    </p>
+    <p>
+      <a href="https://www.youtube.com/">https://www.youtube.com/</a> Videos for both educational and recreational consumption.
+    </p>
+    <p>
+      <img src="../images/gundam.png" height="100" width="150" alt="Gundam: "/>
+    </p>
+    <p>
+      <a href="https://www.usagundamstore.com/">https://www.usagundamstore.com/</a> Store for buying gunpla and plastic modeling tools.
+    </p>
+    <p>
+      <img src="../images/reddit.png" height="100" width="100" alt="Reddit: "/>
+    </p>
+    <p>
+      <a href="https://www.reddit.com/">https://www.reddit.com/</a> "The front page of the internet." Offers posts or news by users, anything from cat videos to international election results.
+    </p>
+    <p>
+      <img src="../images/wilkes.png" height="100" width="100" alt="Wilkes: "/>
+    </p>
+    <p>
+      <a href="https://portal.wilkes.edu/">https://portal.wilkes.edu/</a> Homepage for the Wilkes University ecosystem. Contains links to D2L, the bookstore, and class scheduling.
+    </p>
+    <p>
+      <img src="../images/google.png" height="100" width="100" alt="Google: "/>
+    </p>
+    <p>
+      <a href="https://www.google.com/">https://google.com/</a> Main search engine for the majority of internet users.
+    </p>
+    <p>
+      The easiest way to contact me is through my email, <a href="mailto:adam.abad@wilkes.edu">adam.abad@wilkes.edu</a>
+    </p>
+  </body>
+</html>

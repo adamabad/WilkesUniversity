@@ -1,0 +1,61 @@
+Quiz 4 by Adam Abad
+1. Which of the following is not an internet protocol?
+A. http://
+B. file://
+C. mailto:
+D. WAIS://
+*E. weather://
+2. The most common, open-source, website hosting program is known as what?
+*A. Apache
+B. Netscape
+C. Chromium
+D. Chopper
+E. Hoster
+3. Sites use which request to send and receive a username and password data to and from a server?
+A. GET
+B. HEAD
+*C. POST
+D. SEND
+E. REQUEST
+4. Secure web browsing is most commonly done under which protocol?
+A. http://
+B. news://
+C. file://
+*D. https://
+E. gopher://
+5. What process is used to change spaces and other special characters into URL compatible characters?
+A. URL Shortening
+B. URL Decoding
+C. URL Translating
+D. URL Recoding
+*E. URL Encoding
+6. Which of the following is not a data-carrying field for forms?
+A. text
+B. radio
+*C. submit
+D. password
+E. hidden
+7. In Javascript, if x = "10" and y = 7 and z = x+y, what is z?
+A. 17
+B. 70
+C. 170
+D. NaN error
+*E. 107
+8. How to you make a radio button on a form pre-selected in XHTML?
+A. selected = "selected"
+B. selected
+C. "checked"
+*D. checked = "checked"
+E. checked = "yes"
+9. What process is commonly used to debug code or inform the user of invalid input?
+A. popup();
+B. debug();
+C. help();
+*D. alert();
+E. message();
+10. Which of the following variables designates a scalar name? 
+A. @variable
+B. _variable
+C. .variable
+D. %variable
+*E. $variable

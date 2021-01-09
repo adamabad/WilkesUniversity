@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Additional Information</title>
+  </head>
+  <body>
+    <p>
+      <h1><a href="../..">Adam Abad<a></h1>
+    </p>
+    <h1>Additional Information</h1>
+    <a href="../.."> Home</a> |  <vr></vr>
+    <a href="../about"> About</a> | <vr></vr>
+    <a href="../links"> Links</a> | <vr></vr>
+    <a href="../projects"> Projects</a> | <vr></vr>
+    <a href=".."> Research</a> <vr></vr>
+    <p></p>
+    <p>
+      <table border="0" cellpadding="2" cellspacing="1">
+	<tr>
+	  <td><a href="../2">Prev</a> | Next | <a href="..">IPv4 vs. IPv6</a>
+	</tr>
+      </table>
+    </p>
+    <p>
+      Along with the newer addresses, there are several other advantages included in the IPv6 IPv6 offers direct performance increases over v4 including speed and security (2). The transition to v6 has been slow due to old devices on the net and the translation to newer protocol.
+    </p>
+    <p>
+      <img src="../../images/table.png" height="360" width="600" alt="IPv4 vs IPv6 Table: " />
+    </p>
+    <p>
+      Source: <a href="https://www.networkworld.com/article/3254575/what-is-ipv6-and-why-aren-t-we-there-yet.html">https://www.networkworld.com/article/3254575/what-is-ipv6-and-why-aren-t-we-there-yet.html</a>
+    </p>
+  </body>
+</html>

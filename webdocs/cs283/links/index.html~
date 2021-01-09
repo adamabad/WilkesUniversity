@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Links</title>
+  </head>
+  <body>
+    <p>
+      <h1><a href="..">Adam Abad<a></h1>
+    </p>
+    <h1>Links</h1>
+    <a href=".."> Home</a> |
+    <a href="../about"> About</a> | Links | 
+    <a href="../projects"> Projects</a> |
+    <a href="../research"> Research</a> 
+    <p></p>
+    <p>Below are 5 websites that I frequently visit: </p>
+    <p>
+      <img src="../images/youtube.png" height="100" width="150" alt="Youtube: "/>
+    </p>
+    <p>
+      <a href="https://www.youtube.com/">https://www.youtube.com/</a> Videos for both educational and recreational consumpti\
+      on.
+    </p>
+    <p>
+      <img src="../images/gundam.png" height="100" width="150" alt="Gundam: "/>
+    </p>
+    <p>
+      <a href="https://www.usagundamstore.com/">https://www.usagundamstore.com/</a> Store for buying gunpla and plastic mode\
+      ling tools.
+    </p>
+    <p>
+      <img src="../images/reddit.png" height="100" width="100" alt="Reddit: "/>
+    </p>
+    <p>
+      <a href="https://www.reddit.com/">https://www.reddit.com/</a> "The front page of the internet." Offers posts or news b\
+      y users, anything from cat videos to international election results.
+    </p>
+    <p>
+      <img src="../images/wilkes.png" height="100" width="100" alt="Wilkes: "/>
+    </p>
+    <p>
+      <a href="https://portal.wilkes.edu/">https://portal.wilkes.edu/</a> Homepage for the Wilkes University ecosystem. Cont\
+      ains links to D2L, the bookstore, and class scheduling.
+    </p>
+    <p>
+      <img src="../images/google.png" height="100" width="100" alt="Google: "/>
+    </p>
+    <p>
+      <a href="https://www.google.com/">https://google.com/</a> Main search engine for the majority of internet users.
+    </p>
+    <p>
+    </p>
+  </body>
+</html>

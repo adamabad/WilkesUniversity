@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Lab 9: Quiz Prototype</title>
+        <h1>Lab 9: Quiz Questions Prototype</h1>
+        <link rel="stylesheet" href="./lab9.css"/>
+    </head>
+    <body>
+        <div id="q1">
+            <h4>Question 1: What is the the largest planet in the solar system?</h4>
+            <button id="0">Jupiter</button>
+            <button id="1">Saturn</button>
+            <button id="2">Earth</button>
+            <button id="3">Pluto</button>
+        </div>
+        <div id="q2" class="hide">
+            <h4>Question 2: This is a sample question to show that the first question redirected correctly</h4>
+            <button id="0">Sample 1</button>
+            <button id="1">Sample 2</button>
+            <button id="2">Sample 3</button>
+            <button id="3">Sample 4</button>
+        </div>
+        <div id="right" class="hide">
+            Congradulations you got the question correct.
+            <button id="next">Next Question</button>
+        </div>
+        <div id="wrong" class="hide">
+            The planet you chose is not the largest planet in the solar system.
+            <button id="return">Try again</button>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./lab9.js"></script>
+</html>

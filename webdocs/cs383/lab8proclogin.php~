@@ -1,0 +1,30 @@
+<?php
+    /*
+    Name: Adam Abad
+    File: lab8proclogin.php
+    Date: 3/28/2020
+    */
+    if(array_key_exists("username", $_POST))
+        $thisuser = $_POST["username"];
+    if(array_key_exists("password", $_POST))
+        $thispass = $_POST["password"];
+
+$thisuser = "john.doe";
+$thispass = "password";
+    require_once('mysql_login.php');
+    $conn = new mysqli('localhost', $username, $password, 'cs383');
+    if($conn->connect_error)
+        die($conn->connect_error);
+    
+    $query = "SELECT * FROM lab8users WHERE username = '".$conn->real_escape_string($thisuser)."' AND password = MD5(CONCAT(
+                                                        '\'',
+                                                        '".$conn->real_escape_string($thispass)."',
+                                                        '\'',
+                                                        salt))";
+    $result = $conn->query($query);
+    $conn->close();
+    if(result == 1)
+        header("Location: ./lab8home.php");
+    else
+        header("Location: ./lab8loginform.php");
+?>

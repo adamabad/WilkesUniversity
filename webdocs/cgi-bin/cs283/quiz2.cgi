@@ -1,0 +1,126 @@
+#!/usr/bin/perl
+print "Content-type:text/html\n\n";
+
+print <<PAGE ;
+<html>
+    <!--
+    File: quiz2.cgi
+    Date: Oct. 30, 2019
+    Author: Adam Abad
+    Purpose: To use PERL to display an HTML webpage
+    -->
+<head>
+    <title>Test Quiz</title>
+  </head>
+  <body>
+    <form action="http://www.cknuckles.com/cgi/echo.cgi" method="get" name="quiz">
+      <table border="0">
+        <tr>
+          <td>First Name:</td>
+          <td><input type="text" name="firstname"/></td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="5" width="600">
+        <tr>
+          1. The Y2K event occured during which holiday in 2000?<br />
+          <input type="radio" name="question1" value="a" />A. Christmas<br />
+          <input type="radio" name="question1" value="b" />B. New Years<br />
+          <input type="radio" name="question1" value="c" />C. Valentines Day<br />
+          <input type="radio" name="question1" value="d" />D. 4th of July<br />
+          <input type="radio" name="question1" value="e" />E. Thanksgiving<br />
+        </tr>
+        <tr>
+          2. Which of the following is a programming language<br />
+          <input type="checkbox" name="question2" value="a" />A. Java<br />
+          <input type="checkbox" name="question2" value="b" />B. JavaScript<br />
+          <input type="checkbox" name="question2" value="c" />C. PERL<br />
+          <input type="checkbox" name="question2" value="d" />D. Python<br />
+          <input type="checkbox" name="question2" value="e" />E. HTTPS<br />
+        </tr>
+        <tr>
+          3. I am currently in my _______ year at Wilkes.<br />
+          <select name="question3">
+            <option value="">Choose Year</option>
+            <option value="freshman">Freshman</option>
+            <option value="sophmore">Sophmore</option>
+            <option value="junior">Junior</option>
+            <option value="senior">Senior</option>
+          </select>
+          <br />
+        </tr>
+        <tr>
+          4. I have taken the following classes so far at Wilkes.<br />
+          <select name="question4" multiple size="5">
+            <option value="cs115">CS115</option>
+            <option value="cs116">CS116</option>
+            <option value="cs225">CS225</option>
+            <option value="cs226">CS226</option>
+            <option value="cs246">CS246</option>
+          </select>
+          <br /><br />
+        </tr>
+        <input type="submit" value="Submit Form" />
+    </form>
+    <script language="JavaScript">
+          <!--
+          document.quiz.onsubmit=validate;
+
+          function validate()
+          {
+            var name = document.quiz.firstname.value;
+            if(name.length < 2)
+            {
+              alert("First name must contain atleast 2 characters.");
+              document.quiz.firstname.focus();
+              document.quiz.firstname.select();
+              return false;
+            }
+
+            var complete = false;
+            var elements = document.quiz.elements;
+
+            for(var x = 1; x <= 5; x++)
+            {
+              if(elements[x].checked)
+              {
+                complete = true;
+              }
+            }
+            if(!complete)
+            {
+              alert("You must complete question 1.");
+              return false;
+            }
+
+            complete = false;
+            for(var x = 6; x <= 10; x++)
+            {
+              if(elements[x].checked)
+              {
+                complete = true;
+              }
+            }
+			if(!complete)
+            {
+              alert("You must complete question 2.");
+              return false;
+            }
+
+            complete = false;
+            if(elements[11].value == "")
+            {
+              alert("Please pick your class in question 3.");
+              return false;
+            }
+            if(!elements[12].value)
+            {
+              alert("Pleae select classes you have taken in question 4.");
+              return false;
+            }
+            return true;
+          }
+    -->
+    </script>
+  </body>
+</html>
+PAGE
